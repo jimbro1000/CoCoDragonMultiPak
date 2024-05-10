@@ -12939,16 +12939,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 104.14) (xy 184.15 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7578b7cd-1ba3-4a20-a45f-3401b383570e")
-	)
-	(wire
-		(pts
 			(xy 53.34 135.89) (xy 49.53 135.89)
 		)
 		(stroke
@@ -15839,6 +15829,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 106.68) (xy 217.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8de533b-3501-4ffd-985e-94451b292176")
+	)
+	(wire
+		(pts
 			(xy 172.72 105.41) (xy 166.37 105.41)
 		)
 		(stroke
@@ -16361,17 +16361,6 @@
 		)
 		(uuid "03021245-9e37-4f7d-82ee-337ddeb6a4e3")
 	)
-	(label "REGS1"
-		(at 217.17 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0352c93b-4a20-418b-ae8b-c52aad8bff60")
-	)
 	(label "IA13"
 		(at 99.06 195.58 0)
 		(fields_autoplaced yes)
@@ -16504,6 +16493,17 @@
 		)
 		(uuid "0f24ccd7-2713-485f-aa9a-0d702b1d8ffe")
 	)
+	(label "REGC1"
+		(at 217.17 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1012df71-5c44-4685-ae26-c7a9a44320fe")
+	)
 	(label "ID2"
 		(at 81.28 215.9 0)
 		(fields_autoplaced yes)
@@ -16514,17 +16514,6 @@
 			(justify left bottom)
 		)
 		(uuid "1039e326-9be7-468e-b313-dabd1798f268")
-	)
-	(label "DEFAULT0"
-		(at 184.15 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1064cae0-8582-498c-ab90-6dcf3364f177")
 	)
 	(label "A12"
 		(at 76.2 48.26 0)
@@ -16977,6 +16966,17 @@
 		)
 		(uuid "29ee1f31-d008-4eb4-95b1-a2e51da2d02c")
 	)
+	(label "REGS1"
+		(at 217.17 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a5bb707-e5d7-4cdc-bc84-095f543a8609")
+	)
 	(label "IA12"
 		(at 194.31 238.76 180)
 		(fields_autoplaced yes)
@@ -17241,8 +17241,8 @@
 		)
 		(uuid "3a5b02ce-3a3d-4e2c-ad01-5c2a09454747")
 	)
-	(label "REGC1"
-		(at 217.17 93.98 180)
+	(label "DEFAULT1"
+		(at 184.15 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17250,7 +17250,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3ef2c443-f5c3-40f3-8094-bf93f20d7842")
+		(uuid "3c2c606c-34b2-493b-a563-ad6ae3f66748")
 	)
 	(label "A14"
 		(at 76.2 30.48 0)
@@ -18143,17 +18143,6 @@
 		)
 		(uuid "79ff46c9-277a-44a8-82a4-01c3d4eb0684")
 	)
-	(label "REGC0"
-		(at 217.17 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a439ee2-a901-4bba-8bbb-d4e014e5095c")
-	)
 	(label "~{CTS}"
 		(at 138.43 168.91 0)
 		(fields_autoplaced yes)
@@ -18539,6 +18528,17 @@
 		)
 		(uuid "8e5322af-6923-46a6-8880-bf61c851a7f8")
 	)
+	(label "DEFAULT0"
+		(at 184.15 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ebb8c13-94eb-4a7b-941e-3adb6952b32f")
+	)
 	(label "~{CART4}"
 		(at 31.75 205.74 0)
 		(fields_autoplaced yes)
@@ -18913,6 +18913,17 @@
 		)
 		(uuid "a915dd78-3aae-4b52-b2a1-12e5731527bd")
 	)
+	(label "REGC0"
+		(at 217.17 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a931947b-e704-47fd-9fe2-cb9a5ad36bc1")
+	)
 	(label "IE"
 		(at 234.95 59.69 180)
 		(fields_autoplaced yes)
@@ -19100,17 +19111,6 @@
 		)
 		(uuid "b4441363-c597-4434-9cda-72941678787a")
 	)
-	(label "DEFAULT0"
-		(at 184.15 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4480ba2-374f-4a10-bd9f-ad702a8661f0")
-	)
 	(label "IA14"
 		(at 100.33 113.03 0)
 		(fields_autoplaced yes)
@@ -19209,17 +19209,6 @@
 			(justify left bottom)
 		)
 		(uuid "b7df3eb9-55e9-4268-b4bd-a13691b9202d")
-	)
-	(label "DEFAULT1"
-		(at 184.15 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b878a42c-5527-4122-b2bc-47d87440c409")
 	)
 	(label "A6"
 		(at 76.2 63.5 0)
@@ -19617,6 +19606,17 @@
 		)
 		(uuid "d0852691-ae66-4b24-a51f-563d73b7430f")
 	)
+	(label "CTRL1"
+		(at 184.15 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d151b921-ae87-4cfa-a56a-e73bef4786cd")
+	)
 	(label "IA11"
 		(at 260.35 233.68 0)
 		(fields_autoplaced yes)
@@ -19891,6 +19891,17 @@
 			(justify left bottom)
 		)
 		(uuid "e7ddb255-96d4-4517-ae89-ad947d197251")
+	)
+	(label "DEFAULT0"
+		(at 184.15 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e80be413-cdc1-4567-8bef-2ecc5fa8b1d0")
 	)
 	(label "IA15"
 		(at 100.33 110.49 0)
