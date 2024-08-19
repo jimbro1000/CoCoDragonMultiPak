@@ -8430,6 +8430,10 @@
 		(uuid "bd35437d-ee7c-4cb7-b303-177b6d8175db")
 	)
 	(no_connect
+		(at 62.23 45.72)
+		(uuid "be23002b-cfd3-4746-9cc5-8ec3be8ba64d")
+	)
+	(no_connect
 		(at 213.36 -34.29)
 		(uuid "dfd4baff-a366-4289-b0f2-cef4c0042fc3")
 	)
@@ -22105,71 +22109,6 @@
 			(project "CoCoDragonMultiPak"
 				(path "/9d664c8a-4a7f-4204-988a-91326df86302"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 62.23 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "219c8065-a59d-4e03-ab4f-27e7db3cdf21")
-		(property "Reference" "#PWR014"
-			(at 66.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 58.166 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a373f43-477c-4c02-846b-bf412471b229")
-		)
-		(instances
-			(project "CoCoDragonMultiPak"
-				(path "/9d664c8a-4a7f-4204-988a-91326df86302"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
