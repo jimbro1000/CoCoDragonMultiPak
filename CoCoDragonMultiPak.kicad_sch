@@ -20698,6 +20698,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "3-583717-1-ND"
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5173303"
+			(at 41.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "49c1f83d-6be8-4227-9aca-9dc607704fe6")
 		)
@@ -21090,6 +21108,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7738"
+			(at 247.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "2871d85d-0010-4096-9190-33c698b6f7a5")
 		)
@@ -21342,6 +21369,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5353441"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-4984-1-ND"
+			(at 195.58 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f95b367a-4356-4864-8fab-e7b8b0465986")
 		)
@@ -21468,6 +21513,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2215757"
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
 			(at 158.75 85.09 0)
 			(effects
 				(font
@@ -21611,6 +21674,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2215757"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1384920-baa2-4150-a07e-21b7b28803e1")
 		)
@@ -21673,6 +21754,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C269341"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
 			(at 177.8 53.34 0)
 			(effects
 				(font
@@ -21749,6 +21848,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2215757"
+			(at 201.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
+			(at 201.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "602170e5-6ea3-46ee-9708-cfc04be0e76a")
 		)
@@ -21811,6 +21928,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 204.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C269341"
+			(at 204.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
 			(at 204.47 53.34 0)
 			(effects
 				(font
@@ -22099,6 +22234,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2215757"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
+			(at 203.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcfdb256-e514-4447-a3bb-fd4bd0fd4dcc")
 		)
@@ -22368,6 +22521,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C269341"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2265389-7470-4865-b9a0-bc03dbb4bb39")
 		)
@@ -22497,6 +22668,24 @@
 			)
 		)
 		(property "Description" "5V 3A Step-Down Voltage Regulator, TO-263"
+			(at 260.35 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "LM2596S-5.0/NOPB-ND"
+			(at 260.35 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7419980"
 			(at 260.35 -26.67 0)
 			(effects
 				(font
@@ -22717,6 +22906,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2363555"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C680J5GAC7800CT-ND"
+			(at 234.95 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4ad96f95-97a3-46ac-9b1b-128bb3a14178")
 		)
@@ -22852,6 +23059,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2215757"
+			(at 377.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
+			(at 377.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5a72458-a96a-44f6-8603-de91d763b7b2")
 		)
@@ -22912,6 +23137,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2215757"
+			(at 251.46 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
 			(at 251.46 149.86 0)
 			(effects
 				(font
@@ -23266,6 +23509,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1879872"
+			(at 289.56 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "ce837f10-a2fc-406e-8d21-97b7da221b48")
 		)
@@ -23376,6 +23628,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7431106"
+			(at 292.1 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "495-2016-1-ND"
+			(at 292.1 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26317c95-925d-417d-9466-b50ffec26472")
 		)
@@ -23438,6 +23708,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2363555"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C680J5GAC7800CT-ND"
 			(at 245.11 54.61 0)
 			(effects
 				(font
@@ -23582,6 +23870,15 @@
 			)
 		)
 		(property "DigiKey" "296-31850-1-ND"
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7738"
 			(at 247.65 97.79 0)
 			(effects
 				(font
@@ -23841,6 +24138,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2215757"
+			(at 294.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
+			(at 294.64 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b368e0b0-5497-4be5-b219-17ef21ee76cd")
 		)
@@ -23977,6 +24292,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "945-1032-ND"
+			(at 242.57 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5199925"
+			(at 242.57 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86d522ea-0524-4472-ac18-d6972f12c1e6")
 		)
@@ -24040,6 +24373,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 344.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2215757"
+			(at 344.17 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
 			(at 344.17 173.99 0)
 			(effects
 				(font
@@ -24176,6 +24527,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 160.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C269341"
+			(at 160.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
 			(at 160.02 53.34 0)
 			(effects
 				(font
@@ -24332,6 +24701,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7655"
+			(at 246.38 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "155bd40e-17d1-458f-ada0-015164ef23d3")
 		)
@@ -24434,6 +24812,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 40.64 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "3-583717-1-ND"
+			(at 40.64 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5173303"
 			(at 40.64 210.82 0)
 			(effects
 				(font
@@ -24626,6 +25022,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C269341"
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1496d09b-d4be-4518-adb7-2c25c7aa3926")
 		)
@@ -24688,6 +25102,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 276.86 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2162905"
+			(at 276.86 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "493-7373-1-ND"
 			(at 276.86 -38.1 0)
 			(effects
 				(font
@@ -25098,6 +25530,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "3-583717-1-ND"
+			(at 91.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5173303"
+			(at 91.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "247f0f5b-f788-4918-a9d1-13c7d385385a")
 		)
@@ -25349,6 +25799,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C269341"
+			(at 168.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
+			(at 168.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa534086-a6f8-4abc-817e-cd1e6b12129b")
 		)
@@ -25495,6 +25963,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7738"
+			(at 372.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "2871d85d-0010-4096-9190-33c698b6f7a7")
 		)
@@ -25608,6 +26085,15 @@
 			)
 		)
 		(property "DigiKey" "296-3700-1-ND"
+			(at 156.21 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7655"
 			(at 156.21 228.6 0)
 			(effects
 				(font
@@ -25928,6 +26414,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C269341"
+			(at 142.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
+			(at 142.24 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd99c088-72c3-439c-b909-a90651dd7b4f")
 		)
@@ -26096,7 +26600,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74ALS30ADR"
+		(property "Value" "74AHCT30D"
 			(at 392.43 210.8199 0)
 			(effects
 				(font
@@ -26132,7 +26636,16 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "SN74ALS30ADR-ND"
+		(property "DigiKey" "1727-74AHCT30D-Q100JCT-ND"
+			(at 386.08 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7759"
 			(at 386.08 209.55 0)
 			(effects
 				(font
@@ -26297,6 +26810,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2363555"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C680J5GAC7800CT-ND"
 			(at 224.79 54.61 0)
 			(effects
 				(font
@@ -26511,6 +27042,15 @@
 			)
 		)
 		(property "DigiKey" "296-14899-1-ND"
+			(at 372.11 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C39990"
 			(at 372.11 102.87 0)
 			(effects
 				(font
@@ -26767,6 +27307,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C39990"
+			(at 353.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "ee18f797-1e1d-4cde-bd75-e6f24ef46d14")
 		)
@@ -27008,6 +27557,15 @@
 			)
 		)
 		(property "DigiKey" "296-33998-5-ND"
+			(at 196.85 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1548524"
 			(at 196.85 104.14 0)
 			(effects
 				(font
@@ -27550,6 +28108,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5563744"
+			(at 303.53 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c033163-f802-4b58-a807-554b1ecc352f")
 		)
@@ -27621,6 +28188,15 @@
 			)
 		)
 		(property "DigiKey" "296-14899-1-ND"
+			(at 340.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C39990"
 			(at 340.36 148.59 0)
 			(effects
 				(font
@@ -27799,6 +28375,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2215757"
+			(at 391.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
+			(at 391.16 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce514011-e43a-45e2-83ca-25397da8e8f0")
 		)
@@ -27859,6 +28453,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2162905"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "493-7373-1-ND"
 			(at 147.32 85.09 0)
 			(effects
 				(font
@@ -27994,6 +28606,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 377.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2215757"
+			(at 377.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
 			(at 377.19 92.71 0)
 			(effects
 				(font
@@ -28139,6 +28769,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C706300"
+			(at 279.4 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-RCC080547K0FKEACT-ND"
+			(at 279.4 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d539506-73ee-4729-ba0f-a5c9322e72a6")
 		)
@@ -28199,6 +28847,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 304.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2215757"
+			(at 304.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
 			(at 304.8 87.63 0)
 			(effects
 				(font
@@ -28344,6 +29010,15 @@
 			)
 		)
 		(property "DigiKey" "296-3700-1-ND"
+			(at 198.12 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7655"
 			(at 198.12 154.94 0)
 			(effects
 				(font
@@ -28741,6 +29416,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7763"
+			(at 299.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "dbc8852b-e689-47ce-85f1-753bed10a96c")
 		)
@@ -28864,6 +29548,24 @@
 				(hide yes)
 			)
 		)
+		(property "DigiKey" "641-1340-5-ND"
+			(at 208.28 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5377"
+			(at 208.28 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2850a3a8-fb11-4c4e-9fbe-aed76230e188")
 		)
@@ -28930,6 +29632,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2215757"
+			(at 251.46 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
 			(at 251.46 210.82 0)
 			(effects
 				(font
@@ -29323,6 +30043,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C269341"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-4131-1-ND"
+			(at 195.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f96c42c-343d-46b4-930f-e8d4efed5a69")
 		)
@@ -29584,6 +30322,24 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 240.03 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C706300"
+			(at 240.03 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "541-RCC080547K0FKEACT-ND"
 			(at 240.03 -20.32 0)
 			(effects
 				(font
@@ -29990,6 +30746,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2215757"
+			(at 161.29 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "399-C0805C104K5RAC7210CT-ND"
+			(at 161.29 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "750f2ee5-9098-4f36-98ff-115a3e6530ac")
 		)
@@ -30119,6 +30893,24 @@
 			)
 		)
 		(property "Description" "Programmable Logic Array, DIP-20/SOIC-20/PLCC-20"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "ATF16V8C-7PU-ND"
+			(at 153.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C613484"
 			(at 153.67 105.41 0)
 			(effects
 				(font
@@ -30326,6 +31118,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7655"
+			(at 156.21 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "3527abf6-f78b-4c1d-b755-0ad4b86c2341")
 		)
@@ -30497,6 +31298,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 228.6 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1668164"
+			(at 228.6 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "493-3930-1-ND"
 			(at 228.6 -24.13 0)
 			(effects
 				(font
@@ -30831,6 +31650,24 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 90.17 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "3-583717-1-ND"
+			(at 90.17 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5173303"
 			(at 90.17 210.82 0)
 			(effects
 				(font
@@ -31225,6 +32062,15 @@
 			)
 		)
 		(property "DigiKey" "296-3700-1-ND"
+			(at 339.09 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7655"
 			(at 339.09 194.31 0)
 			(effects
 				(font
@@ -32553,6 +33399,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5353441"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "732-4984-1-ND"
+			(at 204.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abb13f14-63fe-43fa-96d0-08a3a77967fd")
 		)
@@ -32586,7 +33450,7 @@
 				)
 			)
 		)
-		(property "Value" "74ALS30ADR"
+		(property "Value" "74AHCT30D"
 			(at 201.9217 228.6 0)
 			(effects
 				(font
@@ -32621,7 +33485,16 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "SN74ALS30ADR-ND"
+		(property "DigiKey" "1727-74AHCT30D-Q100JCT-ND"
+			(at 201.93 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7759"
 			(at 201.93 238.76 0)
 			(effects
 				(font
@@ -32795,6 +33668,15 @@
 			)
 		)
 		(property "DigiKey" "296-1214-1-ND"
+			(at 246.38 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C129580"
 			(at 246.38 172.72 0)
 			(effects
 				(font
