@@ -1,0 +1,21 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'A[10]'
+Slack : 5.200
+TNS   : 0.000
+
+Type  : Hold 'A[10]'
+Slack : -7.400
+TNS   : -7.400
+
+Type  : Minimum Pulse Width 'A[10]'
+Slack : -2.500
+TNS   : -45.000
+
+Type  : Minimum Pulse Width 'DFlipFlop:regLoad|Q'
+Slack : -2.500
+TNS   : -40.000
+
+------------------------------------------------------------

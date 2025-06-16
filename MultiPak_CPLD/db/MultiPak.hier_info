@@ -1,0 +1,159 @@
+|MultiPak
+A[0] => Equal1.IN13
+A[1] => Equal1.IN12
+A[2] => Equal1.IN11
+A[3] => Equal1.IN10
+A[4] => Equal1.IN9
+A[5] => Equal1.IN8
+A[6] => Equal1.IN7
+A[6] => DBEN.IN1
+A[7] => DBEN.IN0
+A[7] => latch.IN0
+A[8] => Equal0.IN15
+A[9] => Equal0.IN14
+A[10] => Equal0.IN13
+A[11] => Equal0.IN12
+A[12] => Equal0.IN11
+A[13] => Equal0.IN10
+A[14] => Equal0.IN9
+A[15] => Equal0.IN8
+D[0] <> D[0]
+D[0] <> DataLatch:PakRegister.DataIn
+D[1] <> D[1]
+D[1] <> DataLatch:PakRegister.DataIn
+D[2] <> D[2]
+D[2] <> DataLatch:PakRegister.DataIn
+D[3] <> D[3]
+D[3] <> DataLatch:PakRegister.DataIn
+D[4] <> D[4]
+D[4] <> DataLatch:PakRegister.DataIn
+D[5] <> D[5]
+D[5] <> DataLatch:PakRegister.DataIn
+D[6] <> D[6]
+D[6] <> DataLatch:PakRegister.DataIn
+D[7] <> D[7]
+D[7] <> DataLatch:PakRegister.DataIn
+E => IOR.IN0
+E => IOW.IN0
+Q => IOW.IN0
+RnW => IOR.IN1
+RnW => IOW.IN0
+nSLEN => DBEN.IN1
+nCTS => nCTS.IN1
+iRESET => iRESET.IN1
+DEFAULT[0] => switchState[1].IN2
+DEFAULT[1] => switchState[0].IN2
+iP2 => iP2.IN1
+CART[0] => CART[0].IN1
+CART[1] => CART[1].IN1
+CART[2] => CART[2].IN1
+CART[3] => CART[3].IN1
+IOW <= IOW.DB_MAX_OUTPUT_PORT_TYPE
+P2[0] <= Demux42:SelectP2.E
+P2[1] <= Demux42:SelectP2.E
+P2[2] <= Demux42:SelectP2.E
+P2[3] <= Demux42:SelectP2.E
+CTS[0] <= Demux42:SelectCTS.S
+CTS[1] <= Demux42:SelectCTS.S
+CTS[2] <= Demux42:SelectCTS.S
+CTS[3] <= Demux42:SelectCTS.S
+iCART <= <GND>
+
+
+|MultiPak|DataLatch:PakRegister
+CLK => always0.IN0
+OE => DataOut[7].IN0
+DataIn[0] => DataHeld[0].DATAIN
+DataIn[1] => DataHeld[1].DATAIN
+DataIn[2] => DataHeld[2].DATAIN
+DataIn[3] => DataHeld[3].DATAIN
+DataIn[4] => DataHeld[4].DATAIN
+DataIn[5] => DataHeld[5].DATAIN
+DataIn[6] => DataHeld[6].DATAIN
+DataIn[7] => DataHeld[7].DATAIN
+DataOut[0] <= DataOut[0].DB_MAX_OUTPUT_PORT_TYPE
+DataOut[1] <= DataOut[1].DB_MAX_OUTPUT_PORT_TYPE
+DataOut[2] <= DataOut[2].DB_MAX_OUTPUT_PORT_TYPE
+DataOut[3] <= DataOut[3].DB_MAX_OUTPUT_PORT_TYPE
+DataOut[4] <= DataOut[4].DB_MAX_OUTPUT_PORT_TYPE
+DataOut[5] <= DataOut[5].DB_MAX_OUTPUT_PORT_TYPE
+DataOut[6] <= DataOut[6].DB_MAX_OUTPUT_PORT_TYPE
+DataOut[7] <= DataOut[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiPak|Demux42:SelectP2
+E => ~NO_FANOUT~
+A[0] => Decoder0.IN1
+A[1] => Decoder0.IN0
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiPak|Demux42:SelectCTS
+E => ~NO_FANOUT~
+A[0] => Decoder0.IN1
+A[1] => Decoder0.IN0
+S[0] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= S.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiPak|Mux41:CartSelect
+E => Z.IN0
+S[0] => Mux0.IN1
+S[1] => Mux0.IN0
+I[0] => Mux0.IN5
+I[1] => Mux0.IN4
+I[2] => Mux0.IN3
+I[3] => Mux0.IN2
+Z <= Z.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiPak|DFlipFlop:regLoad
+nSET => Q.OUTPUTSELECT
+nRESET => Q.OUTPUTSELECT
+D => Q.DATAA
+CLK => always0.IN0
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+nQ <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiPak|TriInvBuffer:EnableSwitch
+E => Dout[5].IN0
+Din[0] => Dout.IN0
+Din[1] => Dout.IN0
+Din[2] => Dout.IN0
+Din[3] => Dout.IN0
+Din[4] => Dout.IN0
+Din[5] => Dout.IN0
+Dout[0] <= Dout[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Dout[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Dout[3].DB_MAX_OUTPUT_PORT_TYPE
+Dout[4] <= Dout[4].DB_MAX_OUTPUT_PORT_TYPE
+Dout[5] <= Dout[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MultiPak|TriBuffer:OutputRegister
+E => Dout[7].IN0
+Din[0] => Dout[0].DATAIN
+Din[1] => Dout[1].DATAIN
+Din[2] => Dout[2].DATAIN
+Din[3] => Dout[3].DATAIN
+Din[4] => Dout[4].DATAIN
+Din[5] => Dout[5].DATAIN
+Din[6] => Dout[6].DATAIN
+Din[7] => Dout[7].DATAIN
+Dout[0] <= Dout[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Dout[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Dout[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Dout[3].DB_MAX_OUTPUT_PORT_TYPE
+Dout[4] <= Dout[4].DB_MAX_OUTPUT_PORT_TYPE
+Dout[5] <= Dout[5].DB_MAX_OUTPUT_PORT_TYPE
+Dout[6] <= Dout[6].DB_MAX_OUTPUT_PORT_TYPE
+Dout[7] <= Dout[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

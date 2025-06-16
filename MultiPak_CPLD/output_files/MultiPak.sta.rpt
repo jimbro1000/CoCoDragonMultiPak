@@ -1,0 +1,851 @@
+TimeQuest Timing Analyzer report for MultiPak
+Mon Jun 16 21:16:11 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Setup: 'A[10]'
+ 12. Hold: 'A[10]'
+ 13. Minimum Pulse Width: 'A[10]'
+ 14. Minimum Pulse Width: 'DFlipFlop:regLoad|Q'
+ 15. Setup Times
+ 16. Hold Times
+ 17. Clock to Output Times
+ 18. Minimum Clock to Output Times
+ 19. Propagation Delay
+ 20. Minimum Propagation Delay
+ 21. Output Enable Times
+ 22. Minimum Output Enable Times
+ 23. Output Disable Times
+ 24. Minimum Output Disable Times
+ 25. Setup Transfers
+ 26. Hold Transfers
+ 27. Report TCCS
+ 28. Report RSKM
+ 29. Unconstrained Paths
+ 30. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; MultiPak                                                          ;
+; Device Family      ; MAX7000S                                                          ;
+; Device Name        ; EPM7128SQC100-6                                                   ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Slow Model                                                        ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 16     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                                                   ;
++---------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+; Clock Name          ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets                 ;
++---------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+; A[10]               ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { A[10] }               ;
+; DFlipFlop:regLoad|Q ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { DFlipFlop:regLoad|Q } ;
++---------------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+-------------------------+
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
++-------------------------------+
+; Setup Summary                 ;
++-------+-------+---------------+
+; Clock ; Slack ; End Point TNS ;
++-------+-------+---------------+
+; A[10] ; 5.200 ; 0.000         ;
++-------+-------+---------------+
+
+
++--------------------------------+
+; Hold Summary                   ;
++-------+--------+---------------+
+; Clock ; Slack  ; End Point TNS ;
++-------+--------+---------------+
+; A[10] ; -7.400 ; -7.400        ;
++-------+--------+---------------+
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
++----------------------------------------------+
+; Minimum Pulse Width Summary                  ;
++---------------------+--------+---------------+
+; Clock               ; Slack  ; End Point TNS ;
++---------------------+--------+---------------+
+; A[10]               ; -2.500 ; -45.000       ;
+; DFlipFlop:regLoad|Q ; -2.500 ; -40.000       ;
++---------------------+--------+---------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Setup: 'A[10]'                                                                                                                 ;
++-------+---------------------+---------------------+---------------------+-------------+--------------+------------+------------+
+; Slack ; From Node           ; To Node             ; Launch Clock        ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++-------+---------------------+---------------------+---------------------+-------------+--------------+------------+------------+
+; 5.200 ; DFlipFlop:regLoad|Q ; DFlipFlop:regLoad|Q ; DFlipFlop:regLoad|Q ; A[10]       ; 0.500        ; 10.400     ; 6.100      ;
+; 5.700 ; DFlipFlop:regLoad|Q ; DFlipFlop:regLoad|Q ; DFlipFlop:regLoad|Q ; A[10]       ; 1.000        ; 10.400     ; 6.100      ;
++-------+---------------------+---------------------+---------------------+-------------+--------------+------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Hold: 'A[10]'                                                                                                                   ;
++--------+---------------------+---------------------+---------------------+-------------+--------------+------------+------------+
+; Slack  ; From Node           ; To Node             ; Launch Clock        ; Latch Clock ; Relationship ; Clock Skew ; Data Delay ;
++--------+---------------------+---------------------+---------------------+-------------+--------------+------------+------------+
+; -7.400 ; DFlipFlop:regLoad|Q ; DFlipFlop:regLoad|Q ; DFlipFlop:regLoad|Q ; A[10]       ; 0.000        ; 10.400     ; 6.100      ;
+; -6.900 ; DFlipFlop:regLoad|Q ; DFlipFlop:regLoad|Q ; DFlipFlop:regLoad|Q ; A[10]       ; -0.500       ; 10.400     ; 6.100      ;
++--------+---------------------+---------------------+---------------------+-------------+--------------+------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'A[10]'                                                                                       ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock ; Clock Edge ; Target                            ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------------+
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DFlipFlop:regLoad|Q               ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DFlipFlop:regLoad|Q               ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[0] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[0] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[1] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[1] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[2] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[2] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[3] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[3] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[4] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[4] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[5] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[5] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[6] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[6] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[7] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; A[10] ; Rise       ; DataLatch:PakRegister|DataHeld[7] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; A[10]|dataout                     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; A[10]|dataout                     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; PakRegister|DataHeld[0]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; PakRegister|DataHeld[0]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; PakRegister|DataHeld[1]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; PakRegister|DataHeld[1]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; PakRegister|DataHeld[2]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; PakRegister|DataHeld[2]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; PakRegister|DataHeld[3]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; PakRegister|DataHeld[3]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; PakRegister|DataHeld[4]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; PakRegister|DataHeld[4]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; PakRegister|DataHeld[5]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; PakRegister|DataHeld[5]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; PakRegister|DataHeld[6]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; PakRegister|DataHeld[6]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; PakRegister|DataHeld[7]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; PakRegister|DataHeld[7]|[1]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; regLoad|Q|[2]                     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; regLoad|Q|[2]                     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; switchState[4]~1|[4]              ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; switchState[4]~1|[4]              ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; A[10] ; Rise       ; switchState[4]~1|dataout          ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; A[10] ; Rise       ; switchState[4]~1|dataout          ;
++--------+--------------+----------------+------------------+-------+------------+-----------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Minimum Pulse Width: 'DFlipFlop:regLoad|Q'                                                                                       ;
++--------+--------------+----------------+------------------+---------------------+------------+-----------------------------------+
+; Slack  ; Actual Width ; Required Width ; Type             ; Clock               ; Clock Edge ; Target                            ;
++--------+--------------+----------------+------------------+---------------------+------------+-----------------------------------+
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[0] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[0] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[1] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[1] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[2] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[2] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[3] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[3] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[4] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[4] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[5] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[5] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[6] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[6] ;
+; -2.500 ; 0.500        ; 3.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[7] ;
+; -2.500 ; 0.500        ; 3.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; DataLatch:PakRegister|DataHeld[7] ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[0]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[0]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[1]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[1]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[2]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[2]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[3]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[3]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[4]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[4]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[5]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[5]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[6]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[6]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[7]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; PakRegister|DataHeld[7]|[2]       ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; regLoad|Q|[1]                     ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; regLoad|Q|[1]                     ;
+; 0.500  ; 0.500        ; 0.000          ; High Pulse Width ; DFlipFlop:regLoad|Q ; Rise       ; regLoad|Q|dataout                 ;
+; 0.500  ; 0.500        ; 0.000          ; Low Pulse Width  ; DFlipFlop:regLoad|Q ; Rise       ; regLoad|Q|dataout                 ;
++--------+--------------+----------------+------------------+---------------------+------------+-----------------------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Setup Times                                                                          ;
++-----------+---------------------+--------+--------+------------+---------------------+
+; Data Port ; Clock Port          ; Rise   ; Fall   ; Clock Edge ; Clock Reference     ;
++-----------+---------------------+--------+--------+------------+---------------------+
+; D[*]      ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+;  D[0]     ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+;  D[1]     ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+;  D[2]     ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+;  D[3]     ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+;  D[4]     ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+;  D[5]     ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+;  D[6]     ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+;  D[7]     ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+; iRESET    ; A[10]               ; -4.800 ; -4.800 ; Rise       ; A[10]               ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[2]     ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[3]     ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[6]     ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[7]     ; DFlipFlop:regLoad|Q ; 0.800  ; 0.800  ; Rise       ; DFlipFlop:regLoad|Q ;
++-----------+---------------------+--------+--------+------------+---------------------+
+
+
++------------------------------------------------------------------------------------+
+; Hold Times                                                                         ;
++-----------+---------------------+-------+-------+------------+---------------------+
+; Data Port ; Clock Port          ; Rise  ; Fall  ; Clock Edge ; Clock Reference     ;
++-----------+---------------------+-------+-------+------------+---------------------+
+; D[*]      ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+;  D[0]     ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+;  D[1]     ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+;  D[2]     ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+;  D[3]     ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+;  D[4]     ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+;  D[5]     ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+;  D[6]     ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+;  D[7]     ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+; iRESET    ; A[10]               ; 7.500 ; 7.500 ; Rise       ; A[10]               ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[2]     ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[3]     ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[6]     ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[7]     ; DFlipFlop:regLoad|Q ; 1.900 ; 1.900 ; Rise       ; DFlipFlop:regLoad|Q ;
++-----------+---------------------+-------+-------+------------+---------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Clock to Output Times                                                                ;
++-----------+---------------------+--------+--------+------------+---------------------+
+; Data Port ; Clock Port          ; Rise   ; Fall   ; Clock Edge ; Clock Reference     ;
++-----------+---------------------+--------+--------+------------+---------------------+
+; CTS[*]    ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  CTS[0]   ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  CTS[1]   ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  CTS[2]   ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  CTS[3]   ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+; D[*]      ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  D[0]     ; A[10]               ; 18.100 ; 18.100 ; Rise       ; A[10]               ;
+;  D[1]     ; A[10]               ; 18.100 ; 18.100 ; Rise       ; A[10]               ;
+;  D[2]     ; A[10]               ; 12.700 ; 12.700 ; Rise       ; A[10]               ;
+;  D[3]     ; A[10]               ; 12.700 ; 12.700 ; Rise       ; A[10]               ;
+;  D[4]     ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  D[5]     ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  D[6]     ; A[10]               ; 12.700 ; 12.700 ; Rise       ; A[10]               ;
+;  D[7]     ; A[10]               ; 12.700 ; 12.700 ; Rise       ; A[10]               ;
+; IOW       ; A[10]               ; 6.700  ; 6.700  ; Rise       ; A[10]               ;
+; CTS[*]    ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+;  CTS[2]   ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+;  CTS[3]   ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+; D[*]      ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+;  D[4]     ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+; IOW       ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+; CTS[*]    ; DFlipFlop:regLoad|Q ; 12.700 ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  CTS[0]   ; DFlipFlop:regLoad|Q ; 12.700 ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  CTS[1]   ; DFlipFlop:regLoad|Q ; 12.700 ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  CTS[2]   ; DFlipFlop:regLoad|Q ; 12.700 ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  CTS[3]   ; DFlipFlop:regLoad|Q ; 12.700 ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 12.700 ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 12.500 ; 12.500 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 12.500 ; 12.500 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[2]     ; DFlipFlop:regLoad|Q ; 7.100  ; 7.100  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[3]     ; DFlipFlop:regLoad|Q ; 7.100  ; 7.100  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 12.700 ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ; 12.700 ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[6]     ; DFlipFlop:regLoad|Q ; 7.100  ; 7.100  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[7]     ; DFlipFlop:regLoad|Q ; 7.100  ; 7.100  ; Rise       ; DFlipFlop:regLoad|Q ;
+; CTS[*]    ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  CTS[0]   ; DFlipFlop:regLoad|Q ;        ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  CTS[1]   ; DFlipFlop:regLoad|Q ;        ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  CTS[2]   ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  CTS[3]   ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ;        ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
++-----------+---------------------+--------+--------+------------+---------------------+
+
+
++--------------------------------------------------------------------------------------+
+; Minimum Clock to Output Times                                                        ;
++-----------+---------------------+--------+--------+------------+---------------------+
+; Data Port ; Clock Port          ; Rise   ; Fall   ; Clock Edge ; Clock Reference     ;
++-----------+---------------------+--------+--------+------------+---------------------+
+; CTS[*]    ; A[10]               ; 6.700  ; 6.700  ; Rise       ; A[10]               ;
+;  CTS[0]   ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  CTS[1]   ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  CTS[2]   ; A[10]               ; 6.700  ; 6.700  ; Rise       ; A[10]               ;
+;  CTS[3]   ; A[10]               ; 6.700  ; 6.700  ; Rise       ; A[10]               ;
+; D[*]      ; A[10]               ; 6.700  ; 6.700  ; Rise       ; A[10]               ;
+;  D[0]     ; A[10]               ; 18.100 ; 18.100 ; Rise       ; A[10]               ;
+;  D[1]     ; A[10]               ; 18.100 ; 18.100 ; Rise       ; A[10]               ;
+;  D[2]     ; A[10]               ; 12.700 ; 12.700 ; Rise       ; A[10]               ;
+;  D[3]     ; A[10]               ; 12.700 ; 12.700 ; Rise       ; A[10]               ;
+;  D[4]     ; A[10]               ; 6.700  ; 6.700  ; Rise       ; A[10]               ;
+;  D[5]     ; A[10]               ; 18.300 ; 18.300 ; Rise       ; A[10]               ;
+;  D[6]     ; A[10]               ; 12.700 ; 12.700 ; Rise       ; A[10]               ;
+;  D[7]     ; A[10]               ; 12.700 ; 12.700 ; Rise       ; A[10]               ;
+; IOW       ; A[10]               ; 6.700  ; 6.700  ; Rise       ; A[10]               ;
+; CTS[*]    ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+;  CTS[2]   ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+;  CTS[3]   ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+; D[*]      ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+;  D[4]     ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+; IOW       ; A[10]               ; 6.700  ; 6.700  ; Fall       ; A[10]               ;
+; CTS[*]    ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  CTS[0]   ; DFlipFlop:regLoad|Q ; 6.600  ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  CTS[1]   ; DFlipFlop:regLoad|Q ; 6.600  ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  CTS[2]   ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  CTS[3]   ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Rise       ; DFlipFlop:regLoad|Q ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[2]     ; DFlipFlop:regLoad|Q ; 7.100  ; 7.100  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[3]     ; DFlipFlop:regLoad|Q ; 7.100  ; 7.100  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ; 6.600  ; 12.700 ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[6]     ; DFlipFlop:regLoad|Q ; 7.100  ; 7.100  ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[7]     ; DFlipFlop:regLoad|Q ; 7.100  ; 7.100  ; Rise       ; DFlipFlop:regLoad|Q ;
+; CTS[*]    ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  CTS[0]   ; DFlipFlop:regLoad|Q ;        ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  CTS[1]   ; DFlipFlop:regLoad|Q ;        ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  CTS[2]   ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  CTS[3]   ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 6.600  ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ;        ; 6.600  ; Fall       ; DFlipFlop:regLoad|Q ;
++-----------+---------------------+--------+--------+------------+---------------------+
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; A[0]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[0]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[0]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[0]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[0]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[1]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[1]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[1]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[1]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[1]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[2]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[2]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[2]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[2]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[2]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[3]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[3]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[3]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[3]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[3]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[4]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[4]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[4]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[4]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[4]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[5]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[5]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[5]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[5]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[5]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[6]       ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[6]       ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[6]       ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[6]       ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[6]       ; D[4]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[6]       ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[6]       ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[7]       ; CTS[2]      ;        ; 6.700  ; 6.700  ;        ;
+; A[7]       ; CTS[3]      ;        ; 6.700  ; 6.700  ;        ;
+; A[7]       ; D[0]        ; 16.100 ; 12.400 ; 12.400 ; 16.100 ;
+; A[7]       ; D[1]        ; 16.100 ; 12.400 ; 12.400 ; 16.100 ;
+; A[7]       ; D[4]        ; 16.100 ; 12.400 ; 12.400 ; 16.100 ;
+; A[7]       ; D[5]        ; 16.100 ; 12.400 ; 12.400 ; 16.100 ;
+; A[7]       ; IOW         ;        ; 6.700  ; 6.700  ;        ;
+; A[8]       ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[8]       ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[8]       ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[8]       ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[8]       ; D[4]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[8]       ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[8]       ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[9]       ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[9]       ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[9]       ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[9]       ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[9]       ; D[4]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[9]       ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[9]       ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[11]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[11]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[11]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[11]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[11]      ; D[4]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[11]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[11]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[12]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[12]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[12]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[12]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[12]      ; D[4]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[12]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[12]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[13]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[13]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[13]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[13]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[13]      ; D[4]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[13]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[13]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[14]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[14]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[14]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[14]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[14]      ; D[4]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[14]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[14]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[15]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[15]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[15]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[15]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[15]      ; D[4]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[15]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[15]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; DEFAULT[0] ; D[1]        ;        ; 6.500  ; 6.500  ;        ;
+; DEFAULT[1] ; D[0]        ;        ; 6.500  ; 6.500  ;        ;
+; E          ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; E          ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; E          ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; E          ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; E          ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; Q          ; IOW         ;        ; 6.500  ; 6.500  ;        ;
+; RnW        ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; RnW        ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; RnW        ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; RnW        ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; RnW        ; IOW         ;        ; 6.500  ; 6.500  ;        ;
+; nCTS       ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; nCTS       ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; nCTS       ; D[0]        ; 16.100 ;        ;        ; 16.100 ;
+; nCTS       ; D[1]        ; 16.100 ;        ;        ; 16.100 ;
+; nCTS       ; D[4]        ; 16.100 ;        ;        ; 16.100 ;
+; nCTS       ; D[5]        ; 16.100 ;        ;        ; 16.100 ;
+; nSLEN      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; nSLEN      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; nSLEN      ; D[0]        ; 16.100 ;        ;        ; 16.100 ;
+; nSLEN      ; D[1]        ; 16.100 ;        ;        ; 16.100 ;
+; nSLEN      ; D[4]        ; 16.100 ;        ;        ; 16.100 ;
+; nSLEN      ; D[5]        ; 16.100 ;        ;        ; 16.100 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; A[0]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[0]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[0]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[0]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[0]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[1]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[1]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[1]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[1]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[1]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[2]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[2]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[2]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[2]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[2]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[3]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[3]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[3]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[3]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[3]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[4]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[4]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[4]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[4]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[4]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[5]       ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; A[5]       ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; A[5]       ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; A[5]       ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; A[5]       ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; A[6]       ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[6]       ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[6]       ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[6]       ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[6]       ; D[4]        ; 6.700  ; 16.100 ; 16.100 ; 6.700  ;
+; A[6]       ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[6]       ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[7]       ; CTS[2]      ;        ; 6.700  ; 6.700  ;        ;
+; A[7]       ; CTS[3]      ;        ; 6.700  ; 6.700  ;        ;
+; A[7]       ; D[0]        ; 16.100 ; 12.400 ; 12.400 ; 16.100 ;
+; A[7]       ; D[1]        ; 16.100 ; 12.400 ; 12.400 ; 16.100 ;
+; A[7]       ; D[4]        ; 16.100 ; 6.700  ; 6.700  ; 16.100 ;
+; A[7]       ; D[5]        ; 16.100 ; 12.400 ; 12.400 ; 16.100 ;
+; A[7]       ; IOW         ;        ; 6.700  ; 6.700  ;        ;
+; A[8]       ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[8]       ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[8]       ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[8]       ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[8]       ; D[4]        ; 6.700  ; 16.100 ; 16.100 ; 6.700  ;
+; A[8]       ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[8]       ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[9]       ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[9]       ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[9]       ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[9]       ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[9]       ; D[4]        ; 6.700  ; 16.100 ; 16.100 ; 6.700  ;
+; A[9]       ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[9]       ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[11]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[11]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[11]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[11]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[11]      ; D[4]        ; 6.700  ; 16.100 ; 16.100 ; 6.700  ;
+; A[11]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[11]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[12]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[12]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[12]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[12]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[12]      ; D[4]        ; 6.700  ; 16.100 ; 16.100 ; 6.700  ;
+; A[12]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[12]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[13]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[13]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[13]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[13]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[13]      ; D[4]        ; 6.700  ; 16.100 ; 16.100 ; 6.700  ;
+; A[13]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[13]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[14]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[14]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[14]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[14]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[14]      ; D[4]        ; 6.700  ; 16.100 ; 16.100 ; 6.700  ;
+; A[14]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[14]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; A[15]      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; A[15]      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; A[15]      ; D[0]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[15]      ; D[1]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[15]      ; D[4]        ; 6.700  ; 16.100 ; 16.100 ; 6.700  ;
+; A[15]      ; D[5]        ; 12.400 ; 16.100 ; 16.100 ; 12.400 ;
+; A[15]      ; IOW         ; 6.700  ;        ;        ; 6.700  ;
+; DEFAULT[0] ; D[1]        ;        ; 6.500  ; 6.500  ;        ;
+; DEFAULT[1] ; D[0]        ;        ; 6.500  ; 6.500  ;        ;
+; E          ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; E          ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; E          ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; E          ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; E          ; IOW         ; 6.500  ;        ;        ; 6.500  ;
+; Q          ; IOW         ;        ; 6.500  ; 6.500  ;        ;
+; RnW        ; D[0]        ;        ; 15.900 ; 15.900 ;        ;
+; RnW        ; D[1]        ;        ; 15.900 ; 15.900 ;        ;
+; RnW        ; D[4]        ;        ; 15.900 ; 15.900 ;        ;
+; RnW        ; D[5]        ;        ; 15.900 ; 15.900 ;        ;
+; RnW        ; IOW         ;        ; 6.500  ; 6.500  ;        ;
+; nCTS       ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; nCTS       ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; nCTS       ; D[0]        ; 16.100 ;        ;        ; 16.100 ;
+; nCTS       ; D[1]        ; 16.100 ;        ;        ; 16.100 ;
+; nCTS       ; D[4]        ; 6.700  ;        ;        ; 6.700  ;
+; nCTS       ; D[5]        ; 16.100 ;        ;        ; 16.100 ;
+; nSLEN      ; CTS[2]      ; 6.700  ;        ;        ; 6.700  ;
+; nSLEN      ; CTS[3]      ; 6.700  ;        ;        ; 6.700  ;
+; nSLEN      ; D[0]        ; 16.100 ;        ;        ; 16.100 ;
+; nSLEN      ; D[1]        ; 16.100 ;        ;        ; 16.100 ;
+; nSLEN      ; D[4]        ; 6.700  ;        ;        ; 6.700  ;
+; nSLEN      ; D[5]        ; 16.100 ;        ;        ; 16.100 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++------------------------------------------------------------------------------------+
+; Output Enable Times                                                                ;
++-----------+---------------------+--------+------+------------+---------------------+
+; Data Port ; Clock Port          ; Rise   ; Fall ; Clock Edge ; Clock Reference     ;
++-----------+---------------------+--------+------+------------+---------------------+
+; D[*]      ; A[10]               ; 16.100 ;      ; Rise       ; A[10]               ;
+;  D[0]     ; A[10]               ; 16.100 ;      ; Rise       ; A[10]               ;
+;  D[1]     ; A[10]               ; 16.100 ;      ; Rise       ; A[10]               ;
+;  D[4]     ; A[10]               ; 16.100 ;      ; Rise       ; A[10]               ;
+;  D[5]     ; A[10]               ; 16.100 ;      ; Rise       ; A[10]               ;
+; D[*]      ; A[10]               ; 16.100 ;      ; Fall       ; A[10]               ;
+;  D[0]     ; A[10]               ; 16.100 ;      ; Fall       ; A[10]               ;
+;  D[1]     ; A[10]               ; 16.100 ;      ; Fall       ; A[10]               ;
+;  D[4]     ; A[10]               ; 16.100 ;      ; Fall       ; A[10]               ;
+;  D[5]     ; A[10]               ; 16.100 ;      ; Fall       ; A[10]               ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
++-----------+---------------------+--------+------+------------+---------------------+
+
+
++------------------------------------------------------------------------------------+
+; Minimum Output Enable Times                                                        ;
++-----------+---------------------+--------+------+------------+---------------------+
+; Data Port ; Clock Port          ; Rise   ; Fall ; Clock Edge ; Clock Reference     ;
++-----------+---------------------+--------+------+------------+---------------------+
+; D[*]      ; A[10]               ; 12.400 ;      ; Rise       ; A[10]               ;
+;  D[0]     ; A[10]               ; 12.400 ;      ; Rise       ; A[10]               ;
+;  D[1]     ; A[10]               ; 12.400 ;      ; Rise       ; A[10]               ;
+;  D[4]     ; A[10]               ; 12.400 ;      ; Rise       ; A[10]               ;
+;  D[5]     ; A[10]               ; 12.400 ;      ; Rise       ; A[10]               ;
+; D[*]      ; A[10]               ; 12.400 ;      ; Fall       ; A[10]               ;
+;  D[0]     ; A[10]               ; 12.400 ;      ; Fall       ; A[10]               ;
+;  D[1]     ; A[10]               ; 12.400 ;      ; Fall       ; A[10]               ;
+;  D[4]     ; A[10]               ; 12.400 ;      ; Fall       ; A[10]               ;
+;  D[5]     ; A[10]               ; 12.400 ;      ; Fall       ; A[10]               ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ; 12.300 ;      ; Fall       ; DFlipFlop:regLoad|Q ;
++-----------+---------------------+--------+------+------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Output Disable Times                                                                       ;
++-----------+---------------------+-----------+-----------+------------+---------------------+
+; Data Port ; Clock Port          ; 0 to Hi-Z ; 1 to Hi-Z ; Clock Edge ; Clock Reference     ;
++-----------+---------------------+-----------+-----------+------------+---------------------+
+; D[*]      ; A[10]               ; 16.100    ;           ; Rise       ; A[10]               ;
+;  D[0]     ; A[10]               ; 16.100    ;           ; Rise       ; A[10]               ;
+;  D[1]     ; A[10]               ; 16.100    ;           ; Rise       ; A[10]               ;
+;  D[4]     ; A[10]               ; 16.100    ;           ; Rise       ; A[10]               ;
+;  D[5]     ; A[10]               ; 16.100    ;           ; Rise       ; A[10]               ;
+; D[*]      ; A[10]               ; 16.100    ;           ; Fall       ; A[10]               ;
+;  D[0]     ; A[10]               ; 16.100    ;           ; Fall       ; A[10]               ;
+;  D[1]     ; A[10]               ; 16.100    ;           ; Fall       ; A[10]               ;
+;  D[4]     ; A[10]               ; 16.100    ;           ; Fall       ; A[10]               ;
+;  D[5]     ; A[10]               ; 16.100    ;           ; Fall       ; A[10]               ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
++-----------+---------------------+-----------+-----------+------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------+
+; Minimum Output Disable Times                                                               ;
++-----------+---------------------+-----------+-----------+------------+---------------------+
+; Data Port ; Clock Port          ; 0 to Hi-Z ; 1 to Hi-Z ; Clock Edge ; Clock Reference     ;
++-----------+---------------------+-----------+-----------+------------+---------------------+
+; D[*]      ; A[10]               ; 12.400    ;           ; Rise       ; A[10]               ;
+;  D[0]     ; A[10]               ; 12.400    ;           ; Rise       ; A[10]               ;
+;  D[1]     ; A[10]               ; 12.400    ;           ; Rise       ; A[10]               ;
+;  D[4]     ; A[10]               ; 12.400    ;           ; Rise       ; A[10]               ;
+;  D[5]     ; A[10]               ; 12.400    ;           ; Rise       ; A[10]               ;
+; D[*]      ; A[10]               ; 12.400    ;           ; Fall       ; A[10]               ;
+;  D[0]     ; A[10]               ; 12.400    ;           ; Fall       ; A[10]               ;
+;  D[1]     ; A[10]               ; 12.400    ;           ; Fall       ; A[10]               ;
+;  D[4]     ; A[10]               ; 12.400    ;           ; Fall       ; A[10]               ;
+;  D[5]     ; A[10]               ; 12.400    ;           ; Fall       ; A[10]               ;
+; D[*]      ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[0]     ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[1]     ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[4]     ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
+;  D[5]     ; DFlipFlop:regLoad|Q ; 12.300    ;           ; Rise       ; DFlipFlop:regLoad|Q ;
++-----------+---------------------+-----------+-----------+------------+---------------------+
+
+
++----------------------------------------------------------------------------+
+; Setup Transfers                                                            ;
++---------------------+----------+----------+----------+----------+----------+
+; From Clock          ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++---------------------+----------+----------+----------+----------+----------+
+; DFlipFlop:regLoad|Q ; A[10]    ; 1        ; 1        ; 0        ; 0        ;
++---------------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
++----------------------------------------------------------------------------+
+; Hold Transfers                                                             ;
++---------------------+----------+----------+----------+----------+----------+
+; From Clock          ; To Clock ; RR Paths ; FR Paths ; RF Paths ; FF Paths ;
++---------------------+----------+----------+----------+----------+----------+
+; DFlipFlop:regLoad|Q ; A[10]    ; 1        ; 1        ; 0        ; 0        ;
++---------------------+----------+----------+----------+----------+----------+
+Entries labeled "false path" only account for clock-to-clock false paths and not path-based false paths. As a result, actual path counts may be lower than reported.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 32    ; 32   ;
+; Unconstrained Input Port Paths  ; 134   ; 134  ;
+; Unconstrained Output Ports      ; 13    ; 13   ;
+; Unconstrained Output Port Paths ; 149   ; 149  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Mon Jun 16 21:16:10 2025
+Info: Command: quartus_sta MultiPak -c MultiPak
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (306004): Started post-fitting delay annotation
+Info (306005): Delay annotation completed successfully
+Warning (335095): TimeQuest Timing Analyzer does not support the analysis of latches as synchronous elements for the currently selected device family.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'MultiPak.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name DFlipFlop:regLoad|Q DFlipFlop:regLoad|Q
+    Info (332105): create_clock -period 1.000 -name A[10] A[10]
+Warning (332191): Clock target DFlipFlop:regLoad|Q of clock DFlipFlop:regLoad|Q is fed by another target of the same clock.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332140): No fmax paths to report
+Info (332146): Worst-case setup slack is 5.200
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):     5.200         0.000 A[10] 
+Critical Warning (332148): Timing requirements not met
+Info (332146): Worst-case hold slack is -7.400
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -7.400        -7.400 A[10] 
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is -2.500
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -2.500       -45.000 A[10] 
+    Info (332119):    -2.500       -40.000 DFlipFlop:regLoad|Q 
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4509 megabytes
+    Info: Processing ended: Mon Jun 16 21:16:11 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

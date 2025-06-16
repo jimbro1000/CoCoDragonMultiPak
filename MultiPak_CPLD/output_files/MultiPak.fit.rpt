@@ -1,0 +1,535 @@
+Fitter report for MultiPak
+Mon Jun 16 21:16:08 2025
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Fitter Summary
+  3. Fitter Settings
+  4. Parallel Compilation
+  5. Pin-Out File
+  6. Fitter Resource Usage Summary
+  7. Input Pins
+  8. Output Pins
+  9. Bidir Pins
+ 10. All Package Pins
+ 11. Output Pin Default Load For Reported TCO
+ 12. Fitter Resource Utilization by Entity
+ 13. Control Signals
+ 14. Non-Global High Fan-Out Signals
+ 15. Other Routing Usage Summary
+ 16. LAB External Interconnect
+ 17. LAB Macrocells
+ 18. Shareable Expander
+ 19. Logic Cell Interconnection
+ 20. Fitter Device Options
+ 21. Fitter Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Fitter Summary                                                              ;
++---------------------------+-------------------------------------------------+
+; Fitter Status             ; Successful - Mon Jun 16 21:16:08 2025           ;
+; Quartus II 64-Bit Version ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name             ; MultiPak                                        ;
+; Top-level Entity Name     ; MultiPak                                        ;
+; Family                    ; MAX7000S                                        ;
+; Device                    ; EPM7128SQC100-6                                 ;
+; Timing Models             ; Final                                           ;
+; Total macrocells          ; 25 / 128 ( 20 % )                               ;
+; Total pins                ; 51 / 84 ( 61 % )                                ;
++---------------------------+-------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Fitter Settings                                                                                              ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Option                                                                     ; Setting         ; Default Value ;
++----------------------------------------------------------------------------+-----------------+---------------+
+; Device                                                                     ; EPM7128SQC100-6 ;               ;
+; Use smart compilation                                                      ; Off             ; Off           ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On              ; On            ;
+; Enable compact report table                                                ; Off             ; Off           ;
+; Optimize Multi-Corner Timing                                               ; Off             ; Off           ;
+; Optimize Timing for ECOs                                                   ; Off             ; Off           ;
+; Regenerate full fit report during ECO compiles                             ; Off             ; Off           ;
+; Optimize IOC Register Placement for Timing                                 ; Normal          ; Normal        ;
+; Fitter Initial Placement Seed                                              ; 1               ; 1             ;
+; Slow Slew Rate                                                             ; Off             ; Off           ;
+; Fitter Effort                                                              ; Auto Fit        ; Auto Fit      ;
+; Force Fitter to Avoid Periphery Placement Warnings                         ; Off             ; Off           ;
++----------------------------------------------------------------------------+-----------------+---------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 16     ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------+
+; Pin-Out File ;
++--------------+
+The pin-out file can be found in C:/Users/julia/OneDrive/Documents/KiCad/8.0/projects/CoCoDragonMultiPak/MultiPak_CPLD/output_files/MultiPak.pin.
+
+
++--------------------------------------------------+
+; Fitter Resource Usage Summary                    ;
++------------------------------+-------------------+
+; Resource                     ; Usage             ;
++------------------------------+-------------------+
+; Logic cells                  ; 25 / 128 ( 20 % ) ;
+; Registers                    ; 9 / 128 ( 7 % )   ;
+; Number of pterms used        ; 47                ;
+; I/O pins                     ; 51 / 84 ( 61 % )  ;
+;     -- Clock pins            ; 0 / 2 ( 0 % )     ;
+;     -- Dedicated input pins  ; 0 / 2 ( 0 % )     ;
+;                              ;                   ;
+; Global signals               ; 0                 ;
+; Shareable expanders          ; 3 / 128 ( 2 % )   ;
+; Parallel expanders           ; 0 / 120 ( 0 % )   ;
+; Cells using turbo bit        ; 25 / 128 ( 20 % ) ;
+; Maximum fan-out              ; 18                ;
+; Highest non-global fan-out   ; 18                ;
+; Total fan-out                ; 172               ;
+; Average fan-out              ; 2.18              ;
++------------------------------+-------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------+
+; Input Pins                                                                                                                                       ;
++------------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+; Name       ; Pin # ; I/O Bank ; LAB ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; I/O Standard ; Location assigned by ;
++------------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+; A[0]       ; 1     ; --       ; 1   ; 2                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[10]      ; 14    ; --       ; 2   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[11]      ; 15    ; --       ; 2   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[12]      ; 16    ; --       ; 2   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[13]      ; 21    ; --       ; 3   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[14]      ; 22    ; --       ; 3   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[15]      ; 23    ; --       ; 3   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[1]       ; 2     ; --       ; 1   ; 2                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[2]       ; 3     ; --       ; 1   ; 2                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[3]       ; 4     ; --       ; 1   ; 2                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[4]       ; 7     ; --       ; 2   ; 2                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[5]       ; 8     ; --       ; 2   ; 2                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[6]       ; 9     ; --       ; 2   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[7]       ; 10    ; --       ; 2   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[8]       ; 11    ; --       ; 2   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; A[9]       ; 12    ; --       ; 2   ; 7                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; CART[0]    ; 72    ; --       ; 7   ; 0                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; CART[1]    ; 69    ; --       ; 7   ; 0                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; CART[2]    ; 65    ; --       ; 7   ; 0                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; CART[3]    ; 60    ; --       ; 6   ; 0                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; DEFAULT[0] ; 30    ; --       ; 4   ; 1                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; DEFAULT[1] ; 29    ; --       ; 4   ; 1                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; E          ; 80    ; --       ; 8   ; 2                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; Q          ; 79    ; --       ; 8   ; 1                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; RnW        ; 81    ; --       ; 8   ; 2                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; iP2        ; 56    ; --       ; 6   ; 0                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; iRESET     ; 82    ; --       ; 8   ; 1                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; nCTS       ; 24    ; --       ; 3   ; 5                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
+; nSLEN      ; 25    ; --       ; 3   ; 5                     ; 0                  ; no     ; no             ; 3.3-V LVTTL  ; User                 ;
++------------+-------+----------+-----+-----------------------+--------------------+--------+----------------+--------------+----------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Output Pins                                                                                                                                                                                ;
++--------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; Name   ; Pin # ; I/O Bank ; LAB ; Output Register ; Slow Slew Rate ; Open Drain ; TRI Primitive ; I/O Standard ; Location assigned by ; Load  ; Output Enable Source ; Output Enable Group ;
++--------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+; CTS[0] ; 73    ; --       ; 7   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; CTS[1] ; 70    ; --       ; 7   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; CTS[2] ; 66    ; --       ; 7   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; CTS[3] ; 62    ; --       ; 6   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; IOW    ; 59    ; --       ; 6   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; P2[0]  ; 74    ; --       ; 7   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; P2[1]  ; 71    ; --       ; 7   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; P2[2]  ; 67    ; --       ; 7   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; P2[3]  ; 63    ; --       ; 6   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
+; iCART  ; 85    ; --       ; 8   ; no              ; no             ; no         ; no            ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                    ; -                   ;
++--------+-------+----------+-----+-----------------+----------------+------------+---------------+--------------+----------------------+-------+----------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Bidir Pins                                                                                                                                                                                                                                                    ;
++------+-------+----------+-----+-----------------------+--------------------+--------+----------------+-----------------+----------------+------------+--------------+----------------------+-------+------------------------------------+---------------------+
+; Name ; Pin # ; I/O Bank ; LAB ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; Output Register ; Slow Slew Rate ; Open Drain ; I/O Standard ; Location assigned by ; Load  ; Output Enable Source               ; Output Enable Group ;
++------+-------+----------+-----+-----------------------+--------------------+--------+----------------+-----------------+----------------+------------+--------------+----------------------+-------+------------------------------------+---------------------+
+; D[0] ; 86    ; --       ; 8   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; 3.3-V LVTTL  ; User                 ; 10 pF ; TriBuffer:OutputRegister|Dout[0]~7 ; -                   ;
+; D[1] ; 87    ; --       ; 8   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; 3.3-V LVTTL  ; User                 ; 10 pF ; TriBuffer:OutputRegister|Dout[0]~7 ; -                   ;
+; D[2] ; 94    ; --       ; 1   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                                  ; -                   ;
+; D[3] ; 95    ; --       ; 1   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                                  ; -                   ;
+; D[4] ; 96    ; --       ; 1   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; 3.3-V LVTTL  ; User                 ; 10 pF ; TriBuffer:OutputRegister|Dout[0]~7 ; -                   ;
+; D[5] ; 98    ; --       ; 1   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; 3.3-V LVTTL  ; User                 ; 10 pF ; TriBuffer:OutputRegister|Dout[0]~7 ; -                   ;
+; D[6] ; 99    ; --       ; 1   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                                  ; -                   ;
+; D[7] ; 100   ; --       ; 1   ; 1                     ; 0                  ; no     ; no             ; no              ; no             ; no         ; 3.3-V LVTTL  ; User                 ; 10 pF ; -                                  ; -                   ;
++------+-------+----------+-----+-----------------------+--------------------+--------+----------------+-----------------+----------------+------------+--------------+----------------------+-------+------------------------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; All Package Pins                                                                                      ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+; Location ; Pad Number ; I/O Bank ; Pin Name/Usage ; Dir.   ; I/O Standard ; Voltage ; User Assignment ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+; 1        ; 10         ; --       ; A[0]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 2        ; 11         ; --       ; A[1]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 3        ; 12         ; --       ; A[2]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 4        ; 13         ; --       ; A[3]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 5        ; 14         ; --       ; VCCIO          ; power  ;              ; 3.3V    ;                 ;
+; 6        ; 15         ; --       ; TDI            ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 7        ; 16         ; --       ; A[4]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 8        ; 17         ; --       ; A[5]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 9        ; 18         ; --       ; A[6]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 10       ; 19         ; --       ; A[7]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 11       ; 20         ; --       ; A[8]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 12       ; 21         ; --       ; A[9]           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 13       ; 22         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 14       ; 23         ; --       ; A[10]          ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 15       ; 24         ; --       ; A[11]          ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 16       ; 25         ; --       ; A[12]          ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 17       ; 26         ; --       ; TMS            ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 18       ; 27         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 19       ; 28         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 20       ; 29         ; --       ; VCCIO          ; power  ;              ; 3.3V    ;                 ;
+; 21       ; 30         ; --       ; A[13]          ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 22       ; 31         ; --       ; A[14]          ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 23       ; 32         ; --       ; A[15]          ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 24       ; 33         ; --       ; nCTS           ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 25       ; 34         ; --       ; nSLEN          ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 26       ; 35         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 27       ; 36         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 28       ; 37         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 29       ; 38         ; --       ; DEFAULT[1]     ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 30       ; 39         ; --       ; DEFAULT[0]     ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 31       ; 40         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 32       ; 41         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 33       ; 42         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 34       ; 43         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 35       ; 44         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 36       ; 45         ; --       ; VCCIO          ; power  ;              ; 3.3V    ;                 ;
+; 37       ; 46         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 38       ; 47         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 39       ; 48         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 40       ; 49         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 41       ; 50         ; --       ; VCCINT         ; power  ;              ; 5.0V    ;                 ;
+; 42       ; 51         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 43       ; 52         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 44       ; 53         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 45       ; 54         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 46       ; 55         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 47       ; 56         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 48       ; 57         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 49       ; 58         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 50       ; 59         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 51       ; 60         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 52       ; 61         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 53       ; 62         ; --       ; VCCIO          ; power  ;              ; 3.3V    ;                 ;
+; 54       ; 63         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 55       ; 64         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 56       ; 65         ; --       ; iP2            ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 57       ; 66         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 58       ; 67         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 59       ; 68         ; --       ; IOW            ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 60       ; 69         ; --       ; CART[3]        ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 61       ; 70         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 62       ; 71         ; --       ; CTS[3]         ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 63       ; 72         ; --       ; P2[3]          ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 64       ; 73         ; --       ; TCK            ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 65       ; 74         ; --       ; CART[2]        ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 66       ; 75         ; --       ; CTS[2]         ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 67       ; 76         ; --       ; P2[2]          ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 68       ; 77         ; --       ; VCCIO          ; power  ;              ; 3.3V    ;                 ;
+; 69       ; 78         ; --       ; CART[1]        ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 70       ; 79         ; --       ; CTS[1]         ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 71       ; 80         ; --       ; P2[1]          ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 72       ; 81         ; --       ; CART[0]        ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 73       ; 82         ; --       ; CTS[0]         ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 74       ; 83         ; --       ; P2[0]          ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 75       ; 84         ; --       ; TDO            ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 76       ; 85         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 77       ; 86         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 78       ; 87         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 79       ; 88         ; --       ; Q              ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 80       ; 89         ; --       ; E              ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 81       ; 90         ; --       ; RnW            ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 82       ; 91         ; --       ; iRESET         ; input  ; 3.3-V LVTTL  ;         ; Y               ;
+; 83       ; 92         ; --       ; RESERVED       ;        ;              ;         ;                 ;
+; 84       ; 93         ; --       ; VCCIO          ; power  ;              ; 3.3V    ;                 ;
+; 85       ; 94         ; --       ; iCART          ; output ; 3.3-V LVTTL  ;         ; Y               ;
+; 86       ; 95         ; --       ; D[0]           ; bidir  ; 3.3-V LVTTL  ;         ; Y               ;
+; 87       ; 96         ; --       ; D[1]           ; bidir  ; 3.3-V LVTTL  ;         ; Y               ;
+; 88       ; 97         ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 89       ; 98         ; --       ; GND+           ;        ;              ;         ;                 ;
+; 90       ; 99         ; --       ; GND+           ;        ;              ;         ;                 ;
+; 91       ; 0          ; --       ; GND+           ;        ;              ;         ;                 ;
+; 92       ; 1          ; --       ; GND+           ;        ;              ;         ;                 ;
+; 93       ; 2          ; --       ; VCCINT         ; power  ;              ; 5.0V    ;                 ;
+; 94       ; 3          ; --       ; D[2]           ; bidir  ; 3.3-V LVTTL  ;         ; Y               ;
+; 95       ; 4          ; --       ; D[3]           ; bidir  ; 3.3-V LVTTL  ;         ; Y               ;
+; 96       ; 5          ; --       ; D[4]           ; bidir  ; 3.3-V LVTTL  ;         ; Y               ;
+; 97       ; 6          ; --       ; GND            ; gnd    ;              ;         ;                 ;
+; 98       ; 7          ; --       ; D[5]           ; bidir  ; 3.3-V LVTTL  ;         ; Y               ;
+; 99       ; 8          ; --       ; D[6]           ; bidir  ; 3.3-V LVTTL  ;         ; Y               ;
+; 100      ; 9          ; --       ; D[7]           ; bidir  ; 3.3-V LVTTL  ;         ; Y               ;
++----------+------------+----------+----------------+--------+--------------+---------+-----------------+
+Note: Pin directions (input, output or bidir) are based on device operating in user mode.
+
+
++-----------------------------------------------+
+; Output Pin Default Load For Reported TCO      ;
++--------------+-------+------------------------+
+; I/O Standard ; Load  ; Termination Resistance ;
++--------------+-------+------------------------+
+; 3.3-V LVTTL  ; 10 pF ; Not Available          ;
+; 3.3-V LVCMOS ; 10 pF ; Not Available          ;
+; TTL          ; 10 pF ; Not Available          ;
++--------------+-------+------------------------+
+Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
+
+
++-------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                 ;
++-------------------------------+------------+------+------------------------------------+--------------+
+; Compilation Hierarchy Node    ; Macrocells ; Pins ; Full Hierarchy Name                ; Library Name ;
++-------------------------------+------------+------+------------------------------------+--------------+
+; |MultiPak                     ; 25         ; 51   ; |MultiPak                          ; work         ;
+;    |DFlipFlop:regLoad|        ; 1          ; 0    ; |MultiPak|DFlipFlop:regLoad        ; work         ;
+;    |DataLatch:PakRegister|    ; 8          ; 0    ; |MultiPak|DataLatch:PakRegister    ; work         ;
+;    |Demux42:SelectCTS|        ; 4          ; 0    ; |MultiPak|Demux42:SelectCTS        ; work         ;
+;    |TriBuffer:OutputRegister| ; 1          ; 0    ; |MultiPak|TriBuffer:OutputRegister ; work         ;
++-------------------------------+------------+------+------------------------------------+--------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; Control Signals                                                                                     ;
++---------------------+----------+---------+-------+--------+----------------------+------------------+
+; Name                ; Location ; Fan-Out ; Usage ; Global ; Global Resource Used ; Global Line Name ;
++---------------------+----------+---------+-------+--------+----------------------+------------------+
+; DFlipFlop:regLoad|Q ; LC81     ; 18      ; Clock ; no     ; --                   ; --               ;
+; switchState[4]~1    ; LC85     ; 9       ; Clock ; no     ; --                   ; --               ;
++---------------------+----------+---------+-------+--------+----------------------+------------------+
+
+
++----------------------------------------------+
+; Non-Global High Fan-Out Signals              ;
++------------------------------------+---------+
+; Name                               ; Fan-Out ;
++------------------------------------+---------+
+; DFlipFlop:regLoad|Q                ; 18      ;
+; switchState[4]~1                   ; 9       ;
+; A[15]                              ; 7       ;
+; A[14]                              ; 7       ;
+; A[13]                              ; 7       ;
+; A[12]                              ; 7       ;
+; A[11]                              ; 7       ;
+; A[10]                              ; 7       ;
+; A[9]                               ; 7       ;
+; A[8]                               ; 7       ;
+; A[7]                               ; 7       ;
+; A[6]                               ; 7       ;
+; nCTS                               ; 5       ;
+; nSLEN                              ; 5       ;
+; DataLatch:PakRegister|DataHeld[5]  ; 5       ;
+; DataLatch:PakRegister|DataHeld[4]  ; 5       ;
+; TriBuffer:OutputRegister|Dout[0]~7 ; 4       ;
+; RnW                                ; 2       ;
+; E                                  ; 2       ;
+; A[5]                               ; 2       ;
+; A[4]                               ; 2       ;
+; A[3]                               ; 2       ;
+; A[2]                               ; 2       ;
+; A[1]                               ; 2       ;
+; A[0]                               ; 2       ;
+; D[1]~1                             ; 1       ;
+; D[0]~0                             ; 1       ;
+; D[7]~7                             ; 1       ;
+; D[6]~6                             ; 1       ;
+; D[3]~3                             ; 1       ;
+; D[2]~2                             ; 1       ;
+; D[5]~5                             ; 1       ;
+; D[4]~4                             ; 1       ;
+; DEFAULT[1]                         ; 1       ;
+; DEFAULT[0]                         ; 1       ;
+; iRESET                             ; 1       ;
+; Q                                  ; 1       ;
+; ~GND~4                             ; 1       ;
+; ~GND~3                             ; 1       ;
+; ~GND~2                             ; 1       ;
+; ~GND~1                             ; 1       ;
+; ~GND~0                             ; 1       ;
+; Demux42:SelectCTS|Decoder0~21      ; 1       ;
+; Demux42:SelectCTS|Decoder0~14      ; 1       ;
+; Demux42:SelectCTS|Decoder0~8       ; 1       ;
+; Demux42:SelectCTS|Decoder0~4       ; 1       ;
+; REGS[1]~11                         ; 1       ;
+; REGS[0]~8                          ; 1       ;
+; DataLatch:PakRegister|DataHeld[7]  ; 1       ;
+; DataLatch:PakRegister|DataHeld[6]  ; 1       ;
+; DataLatch:PakRegister|DataHeld[3]  ; 1       ;
+; DataLatch:PakRegister|DataHeld[2]  ; 1       ;
+; DataLatch:PakRegister|DataHeld[1]  ; 1       ;
+; DataLatch:PakRegister|DataHeld[0]  ; 1       ;
+; IOW~3                              ; 1       ;
+; REGC[1]~12                         ; 1       ;
+; TriBuffer:OutputRegister|Dout[0]~4 ; 1       ;
+; TriBuffer:OutputRegister|Dout[0]~3 ; 1       ;
+; TriBuffer:OutputRegister|Dout[0]~2 ; 1       ;
+; REGC[0]~10                         ; 1       ;
++------------------------------------+---------+
+
+
++-------------------------------------------------+
+; Other Routing Usage Summary                     ;
++-----------------------------+-------------------+
+; Other Routing Resource Type ; Usage             ;
++-----------------------------+-------------------+
+; Output enables              ; 1 / 6 ( 17 % )    ;
+; PIA buffers                 ; 69 / 288 ( 24 % ) ;
+; PIAs                        ; 70 / 288 ( 24 % ) ;
++-----------------------------+-------------------+
+
+
++----------------------------------------------------------------------------+
+; LAB External Interconnect                                                  ;
++----------------------------------------------+-----------------------------+
+; LAB External Interconnects  (Average = 8.75) ; Number of LABs  (Total = 4) ;
++----------------------------------------------+-----------------------------+
+; 0 - 2                                        ; 4                           ;
+; 3 - 5                                        ; 1                           ;
+; 6 - 8                                        ; 0                           ;
+; 9 - 11                                       ; 0                           ;
+; 12 - 14                                      ; 0                           ;
+; 15 - 17                                      ; 1                           ;
+; 18 - 20                                      ; 1                           ;
+; 21 - 23                                      ; 0                           ;
+; 24 - 26                                      ; 0                           ;
+; 27 - 29                                      ; 0                           ;
+; 30 - 32                                      ; 1                           ;
++----------------------------------------------+-----------------------------+
+
+
++----------------------------------------------------------------------+
+; LAB Macrocells                                                       ;
++----------------------------------------+-----------------------------+
+; Number of Macrocells  (Average = 3.13) ; Number of LABs  (Total = 4) ;
++----------------------------------------+-----------------------------+
+; 0                                      ; 4                           ;
+; 1                                      ; 0                           ;
+; 2                                      ; 0                           ;
+; 3                                      ; 1                           ;
+; 4                                      ; 0                           ;
+; 5                                      ; 0                           ;
+; 6                                      ; 2                           ;
+; 7                                      ; 0                           ;
+; 8                                      ; 0                           ;
+; 9                                      ; 0                           ;
+; 10                                     ; 1                           ;
++----------------------------------------+-----------------------------+
+
+
++-------------------------------------------------------------------------------+
+; Shareable Expander                                                            ;
++-------------------------------------------------+-----------------------------+
+; Number of shareable expanders  (Average = 0.38) ; Number of LABs  (Total = 1) ;
++-------------------------------------------------+-----------------------------+
+; 0                                               ; 7                           ;
+; 1                                               ; 0                           ;
+; 2                                               ; 0                           ;
+; 3                                               ; 1                           ;
++-------------------------------------------------+-----------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Logic Cell Interconnection                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
++-----+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; LAB ; Logic Cell ; Input                                                                                                                                                                                             ; Output                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
++-----+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+;  A  ; LC13       ; DataLatch:PakRegister|DataHeld[4], DFlipFlop:regLoad|Q, A[6], A[7], A[8], A[9], A[10], A[11], A[12], A[13], A[14], A[15], nSLEN, nCTS                                                             ; D[4]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  A  ; LC11       ; DataLatch:PakRegister|DataHeld[5], DFlipFlop:regLoad|Q                                                                                                                                            ; D[5]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  A  ; LC16       ; D[2], switchState[4]~1, DFlipFlop:regLoad|Q                                                                                                                                                       ; D[2]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  A  ; LC14       ; D[3], switchState[4]~1, DFlipFlop:regLoad|Q                                                                                                                                                       ; D[3]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  A  ; LC9        ; D[6], switchState[4]~1, DFlipFlop:regLoad|Q                                                                                                                                                       ; D[6]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  A  ; LC8        ; D[7], switchState[4]~1, DFlipFlop:regLoad|Q                                                                                                                                                       ; D[7]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  F  ; LC91       ; TriBuffer:OutputRegister|Dout[0]~3, DFlipFlop:regLoad|Q, A[6], A[7], A[8], A[9], A[10], A[11], A[12], A[13], A[14], A[15], TriBuffer:OutputRegister|Dout[0]~4, TriBuffer:OutputRegister|Dout[0]~2 ; D[4], D[5], D[0], D[1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+;  F  ; LC89       ; Q, RnW, A[0], A[1], A[2], A[3], A[4], A[5], E, A[6], A[7], A[8], A[9], A[10], A[11], A[12], A[13], A[14], A[15]                                                                                   ; IOW                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ;
+;  F  ; LC81       ; iRESET, DFlipFlop:regLoad|Q, switchState[4]~1                                                                                                                                                     ; REGC[0]~10, TriBuffer:OutputRegister|Dout[0]~7, REGC[1]~12, DFlipFlop:regLoad|Q, DataLatch:PakRegister|DataHeld[0], DataLatch:PakRegister|DataHeld[1], DataLatch:PakRegister|DataHeld[2], DataLatch:PakRegister|DataHeld[3], DataLatch:PakRegister|DataHeld[6], DataLatch:PakRegister|DataHeld[7], REGS[0]~8, REGS[1]~11, DataLatch:PakRegister|DataHeld[4], DataLatch:PakRegister|DataHeld[5], Demux42:SelectCTS|Decoder0~4, Demux42:SelectCTS|Decoder0~8, Demux42:SelectCTS|Decoder0~14, Demux42:SelectCTS|Decoder0~21 ;
+;  F  ; LC85       ; A[6], A[7], A[8], A[9], A[10], A[11], A[12], A[13], A[14], A[15], nSLEN, nCTS                                                                                                                     ; DFlipFlop:regLoad|Q, DataLatch:PakRegister|DataHeld[0], DataLatch:PakRegister|DataHeld[1], DataLatch:PakRegister|DataHeld[2], DataLatch:PakRegister|DataHeld[3], DataLatch:PakRegister|DataHeld[6], DataLatch:PakRegister|DataHeld[7], DataLatch:PakRegister|DataHeld[4], DataLatch:PakRegister|DataHeld[5]                                                                                                                                                                                                              ;
+;  F  ; LC87       ; D[0], switchState[4]~1, DFlipFlop:regLoad|Q                                                                                                                                                       ; REGS[0]~8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ;
+;  F  ; LC90       ; D[1], switchState[4]~1, DFlipFlop:regLoad|Q                                                                                                                                                       ; REGS[1]~11                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ;
+;  F  ; LC83       ; D[4], switchState[4]~1, DFlipFlop:regLoad|Q                                                                                                                                                       ; REGC[0]~10, Demux42:SelectCTS|Decoder0~4, Demux42:SelectCTS|Decoder0~8, Demux42:SelectCTS|Decoder0~14, Demux42:SelectCTS|Decoder0~21                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  F  ; LC84       ; D[5], switchState[4]~1, DFlipFlop:regLoad|Q                                                                                                                                                       ; REGC[1]~12, Demux42:SelectCTS|Decoder0~4, Demux42:SelectCTS|Decoder0~8, Demux42:SelectCTS|Decoder0~14, Demux42:SelectCTS|Decoder0~21                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  F  ; LC93       ; DataLatch:PakRegister|DataHeld[4], DFlipFlop:regLoad|Q, DataLatch:PakRegister|DataHeld[5], A[6], A[7], A[8], A[9], A[10], A[11], A[12], A[13], A[14], A[15], nSLEN, nCTS                          ; CTS[3]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+;  F  ; LC94       ;                                                                                                                                                                                                   ; P2[3]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+;  G  ; LC109      ; DataLatch:PakRegister|DataHeld[5], DFlipFlop:regLoad|Q, DataLatch:PakRegister|DataHeld[4]                                                                                                         ; CTS[0]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+;  G  ; LC104      ; DataLatch:PakRegister|DataHeld[5], DFlipFlop:regLoad|Q, DataLatch:PakRegister|DataHeld[4]                                                                                                         ; CTS[1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+;  G  ; LC99       ; DataLatch:PakRegister|DataHeld[5], DataLatch:PakRegister|DataHeld[4], DFlipFlop:regLoad|Q, nSLEN, nCTS, A[6], A[7], A[8], A[9], A[10], A[11], A[12], A[13], A[14], A[15]                          ; CTS[2]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+;  G  ; LC110      ;                                                                                                                                                                                                   ; P2[0]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+;  G  ; LC105      ;                                                                                                                                                                                                   ; P2[1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+;  G  ; LC101      ;                                                                                                                                                                                                   ; P2[2]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+;  H  ; LC126      ; DataLatch:PakRegister|DataHeld[0], DFlipFlop:regLoad|Q, DEFAULT[1]                                                                                                                                ; D[0]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  H  ; LC128      ; DataLatch:PakRegister|DataHeld[1], DFlipFlop:regLoad|Q, DEFAULT[0]                                                                                                                                ; D[1]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+;  H  ; LC125      ;                                                                                                                                                                                                   ; iCART                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
++-----+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------+
+; Fitter Device Options                                         ;
++----------------------------------------------+----------------+
+; Option                                       ; Setting        ;
++----------------------------------------------+----------------+
+; Enable user-supplied start-up clock (CLKUSR) ; Off            ;
+; Enable device-wide reset (DEV_CLRn)          ; Off            ;
+; Enable device-wide output enable (DEV_OE)    ; Off            ;
+; Enable INIT_DONE output                      ; Off            ;
+; Configuration scheme                         ; Passive Serial ;
+; Security bit                                 ; Off            ;
+; Base pin-out file on sameframe device        ; Off            ;
++----------------------------------------------+----------------+
+
+
++-----------------+
+; Fitter Messages ;
++-----------------+
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (119006): Selected device EPM7128SQC100-6 for design "MultiPak"
+Warning (15705): Ignored locations or region assignments to the following nodes
+    Warning (15706): Node "TCK" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TDI" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TDO" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "TMS" is assigned to location or region, but does not exist in design
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4681 megabytes
+    Info: Processing ended: Mon Jun 16 21:16:08 2025
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

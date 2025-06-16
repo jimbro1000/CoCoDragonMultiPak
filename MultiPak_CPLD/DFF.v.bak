@@ -1,0 +1,29 @@
+module DFF(
+	input nSET,
+	input nRESET,
+	input D,
+	input CLK,
+	output Q,
+	output nQ
+);
+
+	reg iQ;
+	
+	initial begin
+		iQ = 0;
+	end
+	
+	always @(negedge CLK) begin
+		if (!nRESET)
+			iQ = 0;
+		else if (!nSET)
+			iQ = D;
+		else
+			iQ = ~iQ;
+		end
+	end
+	
+	assign Q = iQ;
+	assign nQ = ~iQ;
+
+endmodule

@@ -1,0 +1,16 @@
+module Mux24(
+	input E,
+	input [1:0] S,
+	input [3:0] I,
+	output Z
+);
+
+	wire channel;
+	
+	assign Z = E ? 1'bz : channel;
+
+	always (S) begin
+		channel = I[S];
+	end
+
+endmodule

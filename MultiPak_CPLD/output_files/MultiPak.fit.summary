@@ -1,0 +1,9 @@
+Fitter Status : Successful - Mon Jun 16 21:16:08 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : MultiPak
+Top-level Entity Name : MultiPak
+Family : MAX7000S
+Device : EPM7128SQC100-6
+Timing Models : Final
+Total macrocells : 25 / 128 ( 20 % )
+Total pins : 51 / 84 ( 61 % )
