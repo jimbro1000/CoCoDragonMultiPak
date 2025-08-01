@@ -49,3 +49,40 @@ be compatible so no issue is envisaged
 Until testing is completed and the programming
 conirmed the GAL programs should be treated as untried
 in this context.
+
+### GAL Equations
+
+Note this is written in CUPL.
+
+AND is &, OR is # and XOR is $
+
+```CUPL
+/** INPUT **/
+PIN [2..9] = [A7..0];   /* address bus lsb */
+PIN 1 = !FFXX;          /* mapped address range */
+PIN 11 = RW;            /* RnW */
+PIN 12 = E;             /* Quadrature clock E */
+PIN 13 = Q;             /* Quadrature clock Q */
+PIN 17 = !CSEL;         /* Cartridge select */
+PIN 18 = !SLEB;         /* Device select disable */
+
+/** OUTPUT **/
+PIN 14 = !DBEN;         /* Enable data buffer */
+PIN 15 = !IOR;          /* Read device select latch */
+PIN 16 = !IOW;          /* Write device select latch */
+
+/** EQUATIONS **/
+FIELD ADDRESS = [A7..0];
+
+MATCH = ADDRESS:[7F];
+
+LATCH = MATCH & E & FFXX;
+
+EN = ADDRESS:[40..7F] & FFXX;
+
+DBEN = EN # SLEB # CSEL;
+
+IOR = LATCH & RW;
+
+IOW = LATCH & !Q & !RW;
+```

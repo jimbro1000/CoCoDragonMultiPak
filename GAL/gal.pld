@@ -1,0 +1,37 @@
+Name     CoCoDragonMultiPak;
+PartNo   CoCoDragonMultiPak;
+Date     01/08/2025;
+Revision 02;
+Designer Julian Brown (Original by "The R.A.T.");
+Assembly CoCoDragonMultiPak PLD (GAL);
+Location IC13;
+Device   g16v8;
+
+/** INPUT **/
+PIN [2..9] = [A7..0];   /* address bus lsb */
+PIN 1 = !FFXX;          /* mapped address range */
+PIN 11 = RW;            /* RnW */
+PIN 12 = E;             /* Quadrature clock E */
+PIN 13 = Q;             /* Quadrature clock Q */
+PIN 18 = !SLEB;         /* Device select disable */
+PIN 19 = !CSEL;         /* Cartridge select */
+
+/** OUTPUT **/
+PIN 14 = !DBEN;         /* Enable data buffer */
+PIN 15 = !IOR;          /* Read device select latch */
+PIN 16 = !IOW;          /* Write device select latch */
+
+/** EQUATIONS **/
+FIELD ADDRESS = [A7..0];
+
+MATCH = ADDRESS:[7F];
+
+LATCH = MATCH & E & FFXX;
+
+EN = ADDRESS:[40..7F] & FFXX;
+
+DBEN = EN # SLEB # CSEL;
+
+IOR = LATCH & RW;
+
+IOW = LATCH & !Q & !RW;
