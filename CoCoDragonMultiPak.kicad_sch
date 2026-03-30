@@ -11109,7 +11109,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 96.52) (xy 163.83 96.52)
+			(xy 158.75 96.52) (xy 166.37 96.52)
 		)
 		(stroke
 			(width 0)
@@ -11299,7 +11299,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 104.14) (xy 165.1 104.14)
+			(xy 158.75 104.14) (xy 166.37 104.14)
 		)
 		(stroke
 			(width 0)
@@ -13369,7 +13369,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 158.75 101.6)
+			(xy 166.37 101.6) (xy 158.75 101.6)
 		)
 		(stroke
 			(width 0)
@@ -15859,7 +15859,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 106.68) (xy 158.75 106.68)
+			(xy 166.37 106.68) (xy 158.75 106.68)
 		)
 		(stroke
 			(width 0)
@@ -16239,7 +16239,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 93.98) (xy 158.75 93.98)
+			(xy 166.37 93.98) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
@@ -16479,7 +16479,6 @@
 	)
 	(label "REGC0"
 		(at 270.51 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16490,7 +16489,6 @@
 	)
 	(label "Q"
 		(at 58.42 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16501,7 +16499,6 @@
 	)
 	(label "~{HALT}"
 		(at 82.55 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16512,7 +16509,6 @@
 	)
 	(label "~{NMI}"
 		(at 31.75 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16523,7 +16519,6 @@
 	)
 	(label "IA13"
 		(at 99.06 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16534,7 +16529,6 @@
 	)
 	(label "IA12"
 		(at 50.8 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16545,7 +16539,6 @@
 	)
 	(label "IQ"
 		(at 81.28 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16556,7 +16549,6 @@
 	)
 	(label "IA2"
 		(at 100.33 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16567,7 +16559,6 @@
 	)
 	(label "A10"
 		(at 232.41 220.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16578,7 +16569,6 @@
 	)
 	(label "D2"
 		(at 261.62 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16589,7 +16579,6 @@
 	)
 	(label "I~{RESET}"
 		(at 81.28 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16600,7 +16589,6 @@
 	)
 	(label "IE"
 		(at 82.55 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16611,7 +16599,6 @@
 	)
 	(label "IA3"
 		(at 50.8 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16622,7 +16609,6 @@
 	)
 	(label "~{RESET}"
 		(at 261.62 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16633,7 +16619,6 @@
 	)
 	(label "D6"
 		(at 58.42 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16644,7 +16629,6 @@
 	)
 	(label "~{SLEN}"
 		(at 53.34 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16655,7 +16639,6 @@
 	)
 	(label "REGC1"
 		(at 217.17 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16666,7 +16649,6 @@
 	)
 	(label "ID2"
 		(at 81.28 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16677,7 +16659,6 @@
 	)
 	(label "A12"
 		(at 76.2 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16688,7 +16669,6 @@
 	)
 	(label "LOADREG"
 		(at 323.85 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16699,7 +16679,6 @@
 	)
 	(label "IQ"
 		(at 161.29 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16710,7 +16689,6 @@
 	)
 	(label "I~{CTS}"
 		(at 173.99 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16721,7 +16699,6 @@
 	)
 	(label "ID3"
 		(at 354.33 194.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16732,7 +16709,6 @@
 	)
 	(label "IA1"
 		(at 31.75 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16743,7 +16719,6 @@
 	)
 	(label "~{CART1}"
 		(at 82.55 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16754,7 +16729,6 @@
 	)
 	(label "IE"
 		(at 31.75 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16765,7 +16739,6 @@
 	)
 	(label "R{slash}~{W}"
 		(at 138.43 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16776,7 +16749,6 @@
 	)
 	(label "EXTSND"
 		(at 104.14 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16787,7 +16759,6 @@
 	)
 	(label "~{SLEN}"
 		(at 54.61 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16798,7 +16769,6 @@
 	)
 	(label "ID6"
 		(at 284.48 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16809,7 +16779,6 @@
 	)
 	(label "IR{slash}~{W}"
 		(at 173.99 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16820,7 +16789,6 @@
 	)
 	(label "IA14"
 		(at 99.06 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16831,7 +16799,6 @@
 	)
 	(label "ID4"
 		(at 354.33 189.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16842,7 +16809,6 @@
 	)
 	(label "IA12"
 		(at 260.35 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16853,7 +16819,6 @@
 	)
 	(label "REGC1"
 		(at 229.87 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16864,7 +16829,6 @@
 	)
 	(label "ID5"
 		(at 82.55 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16875,7 +16839,6 @@
 	)
 	(label "IA7"
 		(at 50.8 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16886,7 +16849,6 @@
 	)
 	(label "A9"
 		(at 143.51 223.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16897,7 +16859,6 @@
 	)
 	(label "CK1"
 		(at 320.04 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16908,7 +16869,6 @@
 	)
 	(label "~{CTS1}"
 		(at 264.16 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16919,7 +16879,6 @@
 	)
 	(label "REGS1"
 		(at 320.04 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16930,7 +16889,6 @@
 	)
 	(label "D5"
 		(at 58.42 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16941,7 +16899,6 @@
 	)
 	(label "IA14"
 		(at 49.53 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16952,7 +16909,6 @@
 	)
 	(label "IA0"
 		(at 33.02 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16963,7 +16919,6 @@
 	)
 	(label "IE"
 		(at 173.99 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16974,7 +16929,6 @@
 	)
 	(label "ID0"
 		(at 33.02 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16985,7 +16939,6 @@
 	)
 	(label "IA13"
 		(at 194.31 246.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16996,7 +16949,6 @@
 	)
 	(label "IA4"
 		(at 100.33 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17007,7 +16959,6 @@
 	)
 	(label "CK2"
 		(at 139.7 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17018,7 +16969,6 @@
 	)
 	(label "IA12"
 		(at 49.53 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17029,7 +16979,6 @@
 	)
 	(label "IA8"
 		(at 194.31 231.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17040,7 +16989,6 @@
 	)
 	(label "~{CART}"
 		(at 58.42 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17051,7 +16999,6 @@
 	)
 	(label "~{CART4}"
 		(at 270.51 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17062,7 +17009,6 @@
 	)
 	(label "DEFAULT1"
 		(at 177.8 49.53 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17073,7 +17019,6 @@
 	)
 	(label "AC1"
 		(at 205.74 -39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17084,7 +17029,6 @@
 	)
 	(label "IE"
 		(at 161.29 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17093,9 +17037,8 @@
 		)
 		(uuid "25fb18d7-f0fd-4e0c-9edf-4f1dc8940a12")
 	)
-	(label "CTRL1"
+	(label "~{ENWRITE}"
 		(at 184.15 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17106,7 +17049,6 @@
 	)
 	(label "CK3"
 		(at 139.7 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17117,7 +17059,6 @@
 	)
 	(label "IA2"
 		(at 99.06 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17128,7 +17069,6 @@
 	)
 	(label "REGS1"
 		(at 217.17 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17139,7 +17079,6 @@
 	)
 	(label "IA12"
 		(at 194.31 238.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17150,7 +17089,6 @@
 	)
 	(label "DEFAULT0"
 		(at 340.36 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17161,7 +17099,6 @@
 	)
 	(label "~{HALT}"
 		(at 31.75 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17172,7 +17109,6 @@
 	)
 	(label "~{P21}"
 		(at 104.14 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17183,7 +17119,6 @@
 	)
 	(label "EXTSND"
 		(at 53.34 200.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17194,7 +17129,6 @@
 	)
 	(label "IA5"
 		(at 132.08 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17205,7 +17139,6 @@
 	)
 	(label "IA8"
 		(at 99.06 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17216,7 +17149,6 @@
 	)
 	(label "IA7"
 		(at 49.53 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17227,7 +17159,6 @@
 	)
 	(label "E"
 		(at 58.42 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17238,7 +17169,6 @@
 	)
 	(label "IA3"
 		(at 49.53 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17249,7 +17179,6 @@
 	)
 	(label "A5"
 		(at 76.2 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17260,7 +17189,6 @@
 	)
 	(label "D5"
 		(at 261.62 165.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17271,7 +17199,6 @@
 	)
 	(label "A5"
 		(at 185.42 152.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17282,7 +17209,6 @@
 	)
 	(label "IR{slash}~{W}"
 		(at 82.55 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17293,7 +17219,6 @@
 	)
 	(label "ID2"
 		(at 354.33 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17304,7 +17229,6 @@
 	)
 	(label "~{CART}"
 		(at 224.79 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17315,7 +17239,6 @@
 	)
 	(label "D1"
 		(at 261.62 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17326,7 +17249,6 @@
 	)
 	(label "ID1"
 		(at 354.33 184.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17337,7 +17259,6 @@
 	)
 	(label "DEFAULT0"
 		(at 168.91 49.53 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17348,7 +17269,6 @@
 	)
 	(label "IA9"
 		(at 99.06 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17359,7 +17279,6 @@
 	)
 	(label "ID7"
 		(at 31.75 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17370,7 +17289,6 @@
 	)
 	(label "IA3"
 		(at 99.06 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17381,7 +17299,6 @@
 	)
 	(label "~{CTS4}"
 		(at 264.16 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17392,7 +17309,6 @@
 	)
 	(label "A15"
 		(at 232.41 228.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17403,7 +17319,6 @@
 	)
 	(label "DEFAULT1"
 		(at 184.15 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17414,7 +17329,6 @@
 	)
 	(label "A14"
 		(at 76.2 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17425,7 +17339,6 @@
 	)
 	(label "IA13"
 		(at 50.8 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17436,7 +17349,6 @@
 	)
 	(label "R{slash}~{W}"
 		(at 58.42 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17447,7 +17359,6 @@
 	)
 	(label "I~{CTS}"
 		(at 229.87 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17458,7 +17369,6 @@
 	)
 	(label "ID2"
 		(at 33.02 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17469,7 +17379,6 @@
 	)
 	(label "A13"
 		(at 232.41 231.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17480,7 +17389,6 @@
 	)
 	(label "ID4"
 		(at 231.14 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17491,7 +17399,6 @@
 	)
 	(label "I~{P2}"
 		(at 173.99 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17502,7 +17409,6 @@
 	)
 	(label "IA13"
 		(at 100.33 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17513,7 +17419,6 @@
 	)
 	(label "IA1"
 		(at 81.28 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17524,7 +17429,6 @@
 	)
 	(label "ID5"
 		(at 284.48 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17535,7 +17439,6 @@
 	)
 	(label "IA14"
 		(at 260.35 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17546,7 +17449,6 @@
 	)
 	(label "~{RESET}"
 		(at 58.42 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17556,8 +17458,7 @@
 		(uuid "46204aed-a92d-4133-96f6-2e38655699a5")
 	)
 	(label "~{ENREAD}"
-		(at 165.1 104.14 180)
-		(fields_autoplaced yes)
+		(at 166.37 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17568,7 +17469,6 @@
 	)
 	(label "IA1"
 		(at 33.02 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17579,7 +17479,6 @@
 	)
 	(label "ID0"
 		(at 31.75 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17590,7 +17489,6 @@
 	)
 	(label "IA5"
 		(at 50.8 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17601,7 +17499,6 @@
 	)
 	(label "~{CTS3}"
 		(at 264.16 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17612,7 +17509,6 @@
 	)
 	(label "ENREG"
 		(at 279.4 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17623,7 +17519,6 @@
 	)
 	(label "ID6"
 		(at 33.02 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17634,7 +17529,6 @@
 	)
 	(label "ENSW"
 		(at 184.15 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17645,7 +17539,6 @@
 	)
 	(label "IA12"
 		(at 99.06 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17656,7 +17549,6 @@
 	)
 	(label "A8"
 		(at 143.51 226.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17667,7 +17559,6 @@
 	)
 	(label "D7"
 		(at 58.42 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17678,7 +17569,6 @@
 	)
 	(label "D4"
 		(at 58.42 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17689,7 +17579,6 @@
 	)
 	(label "A12"
 		(at 232.41 223.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17700,7 +17589,6 @@
 	)
 	(label "D1"
 		(at 58.42 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17711,7 +17599,6 @@
 	)
 	(label "D3"
 		(at 58.42 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17722,7 +17609,6 @@
 	)
 	(label "ID6"
 		(at 231.14 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17733,7 +17619,6 @@
 	)
 	(label "~{CART1}"
 		(at 133.35 48.26 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17744,7 +17629,6 @@
 	)
 	(label "IA15"
 		(at 260.35 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17755,7 +17639,6 @@
 	)
 	(label "I~{RESET}"
 		(at 80.01 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17766,7 +17649,6 @@
 	)
 	(label "A1"
 		(at 58.42 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17777,7 +17659,6 @@
 	)
 	(label "~{P24}"
 		(at 264.16 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17788,7 +17669,6 @@
 	)
 	(label "ID1"
 		(at 82.55 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17799,7 +17679,6 @@
 	)
 	(label "ID6"
 		(at 81.28 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17810,7 +17689,6 @@
 	)
 	(label "A2"
 		(at 76.2 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17821,7 +17699,6 @@
 	)
 	(label "IA3"
 		(at 132.08 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17832,7 +17709,6 @@
 	)
 	(label "D4"
 		(at 261.62 167.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17843,7 +17719,6 @@
 	)
 	(label "~{CTS2}"
 		(at 54.61 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17854,7 +17729,6 @@
 	)
 	(label "A2"
 		(at 185.42 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17865,7 +17739,6 @@
 	)
 	(label "IA0"
 		(at 210.82 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17876,7 +17749,6 @@
 	)
 	(label "A0"
 		(at 185.42 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17887,7 +17759,6 @@
 	)
 	(label "A7"
 		(at 143.51 220.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17898,7 +17769,6 @@
 	)
 	(label "A10"
 		(at 76.2 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17909,7 +17779,6 @@
 	)
 	(label "IA9"
 		(at 168.91 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17920,7 +17789,6 @@
 	)
 	(label "ID3"
 		(at 81.28 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17931,7 +17799,6 @@
 	)
 	(label "ID4"
 		(at 31.75 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17942,7 +17809,6 @@
 	)
 	(label "IA9"
 		(at 100.33 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17953,7 +17819,6 @@
 	)
 	(label "IA7"
 		(at 132.08 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17964,7 +17829,6 @@
 	)
 	(label "~{ENREAD}"
 		(at 135.89 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17975,7 +17839,6 @@
 	)
 	(label "REGS1"
 		(at 229.87 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17986,7 +17849,6 @@
 	)
 	(label "IA11"
 		(at 49.53 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17997,7 +17859,6 @@
 	)
 	(label "IA0"
 		(at 82.55 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18008,7 +17869,6 @@
 	)
 	(label "REGS1"
 		(at 321.31 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18019,7 +17879,6 @@
 	)
 	(label "IA5"
 		(at 99.06 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18028,9 +17887,8 @@
 		)
 		(uuid "6591a47b-99ec-4cb0-b84d-83e28acf4c27")
 	)
-	(label "CTRL1"
-		(at 163.83 101.6 180)
-		(fields_autoplaced yes)
+	(label "~{ENWRITE}"
+		(at 166.37 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18041,7 +17899,6 @@
 	)
 	(label "REGC0"
 		(at 321.31 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18052,7 +17909,6 @@
 	)
 	(label "IA3"
 		(at 210.82 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18063,7 +17919,6 @@
 	)
 	(label "~{P2}"
 		(at 80.01 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18074,7 +17929,6 @@
 	)
 	(label "~{P22}"
 		(at 54.61 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18085,7 +17939,6 @@
 	)
 	(label "~{HALT}"
 		(at 33.02 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18096,7 +17949,6 @@
 	)
 	(label "~{CTS}"
 		(at 80.01 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18107,7 +17959,6 @@
 	)
 	(label "ID1"
 		(at 231.14 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18118,7 +17969,6 @@
 	)
 	(label "REGS0"
 		(at 217.17 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18129,7 +17979,6 @@
 	)
 	(label "ID0"
 		(at 284.48 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18140,7 +17989,6 @@
 	)
 	(label "IR{slash}~{W}"
 		(at 127 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18151,7 +17999,6 @@
 	)
 	(label "~{CTS2}"
 		(at 264.16 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18162,7 +18009,6 @@
 	)
 	(label "ENREG"
 		(at 354.33 151.13 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18173,7 +18019,6 @@
 	)
 	(label "~{NMI}"
 		(at 58.42 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18184,7 +18029,6 @@
 	)
 	(label "~{SLEN}"
 		(at 102.87 187.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18195,7 +18039,6 @@
 	)
 	(label "A11"
 		(at 232.41 233.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18206,7 +18049,6 @@
 	)
 	(label "EXTSND"
 		(at 80.01 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18217,7 +18059,6 @@
 	)
 	(label "IA11"
 		(at 50.8 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18228,7 +18069,6 @@
 	)
 	(label "IA6"
 		(at 100.33 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18239,7 +18079,6 @@
 	)
 	(label "IA8"
 		(at 168.91 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18250,7 +18089,6 @@
 	)
 	(label "ID5"
 		(at 231.14 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18261,7 +18099,6 @@
 	)
 	(label "IR{slash}~{W}"
 		(at 33.02 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18272,7 +18109,6 @@
 	)
 	(label "A0"
 		(at 58.42 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18283,7 +18119,6 @@
 	)
 	(label "~{SLEN}"
 		(at 80.01 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18294,7 +18129,6 @@
 	)
 	(label "ID4"
 		(at 82.55 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18305,7 +18139,6 @@
 	)
 	(label "~{CTS}"
 		(at 138.43 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18316,7 +18149,6 @@
 	)
 	(label "ID0"
 		(at 82.55 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18327,7 +18159,6 @@
 	)
 	(label "CK0"
 		(at 321.31 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18338,7 +18169,6 @@
 	)
 	(label "REGS0"
 		(at 320.04 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18349,7 +18179,6 @@
 	)
 	(label "IQ"
 		(at 31.75 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18360,7 +18189,6 @@
 	)
 	(label "IA15"
 		(at 194.31 243.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18371,7 +18199,6 @@
 	)
 	(label "ID0"
 		(at 81.28 210.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18382,7 +18209,6 @@
 	)
 	(label "Q"
 		(at 138.43 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18393,7 +18219,6 @@
 	)
 	(label "~{HALT}"
 		(at 58.42 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18404,7 +18229,6 @@
 	)
 	(label "ID7"
 		(at 231.14 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18415,7 +18239,6 @@
 	)
 	(label "EXTSND"
 		(at 102.87 200.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18426,7 +18249,6 @@
 	)
 	(label "IA5"
 		(at 49.53 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18437,7 +18259,6 @@
 	)
 	(label "IA9"
 		(at 194.31 233.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18448,7 +18269,6 @@
 	)
 	(label "ID2"
 		(at 284.48 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18459,7 +18279,6 @@
 	)
 	(label "IA4"
 		(at 49.53 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18470,7 +18289,6 @@
 	)
 	(label "IA11"
 		(at 194.31 236.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18481,7 +18299,6 @@
 	)
 	(label "REGC0"
 		(at 320.04 113.03 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18492,7 +18309,6 @@
 	)
 	(label "IA7"
 		(at 100.33 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18503,7 +18319,6 @@
 	)
 	(label "IA8"
 		(at 50.8 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18514,7 +18329,6 @@
 	)
 	(label "~{CART4}"
 		(at 160.02 48.26 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18525,7 +18339,6 @@
 	)
 	(label "ID6"
 		(at 31.75 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18536,7 +18349,6 @@
 	)
 	(label "ID1"
 		(at 81.28 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18547,7 +18359,6 @@
 	)
 	(label "ID0"
 		(at 354.33 196.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18558,7 +18369,6 @@
 	)
 	(label "ID3"
 		(at 82.55 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18569,7 +18379,6 @@
 	)
 	(label "ID5"
 		(at 354.33 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18580,7 +18389,6 @@
 	)
 	(label "IA4"
 		(at 210.82 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18591,7 +18399,6 @@
 	)
 	(label "IA10"
 		(at 260.35 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18602,7 +18409,6 @@
 	)
 	(label "IR{slash}~{W}"
 		(at 81.28 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18613,7 +18419,6 @@
 	)
 	(label "LOADREG"
 		(at 279.4 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18624,7 +18429,6 @@
 	)
 	(label "ID3"
 		(at 231.14 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18635,7 +18439,6 @@
 	)
 	(label "~{P21}"
 		(at 264.16 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18646,7 +18449,6 @@
 	)
 	(label "IA8"
 		(at 100.33 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18657,7 +18459,6 @@
 	)
 	(label "IA10"
 		(at 100.33 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18668,7 +18469,6 @@
 	)
 	(label "IA10"
 		(at 49.53 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18679,7 +18479,6 @@
 	)
 	(label "CK3"
 		(at 320.04 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18690,7 +18489,6 @@
 	)
 	(label "DEFAULT0"
 		(at 184.15 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18701,7 +18499,6 @@
 	)
 	(label "~{CART4}"
 		(at 31.75 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18712,7 +18509,6 @@
 	)
 	(label "ID0"
 		(at 231.14 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18723,7 +18519,6 @@
 	)
 	(label "I~{RESET}"
 		(at 173.99 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18734,7 +18529,6 @@
 	)
 	(label "IQ"
 		(at 245.11 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18745,7 +18539,6 @@
 	)
 	(label "CK1"
 		(at 321.31 194.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18756,7 +18549,6 @@
 	)
 	(label "IA10"
 		(at 99.06 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18767,7 +18559,6 @@
 	)
 	(label "CK0"
 		(at 320.04 115.57 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18778,7 +18569,6 @@
 	)
 	(label "ID5"
 		(at 33.02 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18789,7 +18579,6 @@
 	)
 	(label "IA0"
 		(at 132.08 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18800,7 +18589,6 @@
 	)
 	(label "~{P23}"
 		(at 264.16 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18811,7 +18599,6 @@
 	)
 	(label "ID3"
 		(at 284.48 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18822,7 +18609,6 @@
 	)
 	(label "IA1"
 		(at 82.55 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18833,7 +18619,6 @@
 	)
 	(label "IA0"
 		(at 81.28 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18844,7 +18629,6 @@
 	)
 	(label "~{CTS1}"
 		(at 104.14 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18854,8 +18638,7 @@
 		(uuid "9a002603-7b96-4341-b225-6cd33169c9ea")
 	)
 	(label "I~{CTS}"
-		(at 163.83 93.98 180)
-		(fields_autoplaced yes)
+		(at 166.37 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18866,7 +18649,6 @@
 	)
 	(label "IA4"
 		(at 132.08 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18877,7 +18659,6 @@
 	)
 	(label "E"
 		(at 138.43 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18888,7 +18669,6 @@
 	)
 	(label "IE"
 		(at 33.02 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18899,7 +18679,6 @@
 	)
 	(label "~{CART3}"
 		(at 81.28 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18910,7 +18689,6 @@
 	)
 	(label "IA6"
 		(at 49.53 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18921,7 +18699,6 @@
 	)
 	(label "ID2"
 		(at 31.75 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18932,7 +18709,6 @@
 	)
 	(label "REGC1"
 		(at 320.04 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18943,7 +18719,6 @@
 	)
 	(label "IA2"
 		(at 132.08 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18954,7 +18729,6 @@
 	)
 	(label "REGC0"
 		(at 229.87 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18965,7 +18739,6 @@
 	)
 	(label "D2"
 		(at 58.42 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18976,7 +18749,6 @@
 	)
 	(label "ID3"
 		(at 31.75 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18987,7 +18759,6 @@
 	)
 	(label "~{ENREAD}"
 		(at 320.04 201.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18998,7 +18769,6 @@
 	)
 	(label "ID7"
 		(at 168.91 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19009,7 +18779,6 @@
 	)
 	(label "ID6"
 		(at 168.91 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19020,7 +18789,6 @@
 	)
 	(label "~{ENBUS}"
 		(at 228.6 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19031,7 +18799,6 @@
 	)
 	(label "ID2"
 		(at 231.14 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19042,7 +18809,6 @@
 	)
 	(label "IA14"
 		(at 194.31 241.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19053,7 +18819,6 @@
 	)
 	(label "RECTIFIED_POWER"
 		(at 224.79 -29.21 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19064,7 +18829,6 @@
 	)
 	(label "A8"
 		(at 76.2 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19075,7 +18839,6 @@
 	)
 	(label "REGC0"
 		(at 217.17 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19086,7 +18849,6 @@
 	)
 	(label "IE"
 		(at 234.95 59.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19097,7 +18859,6 @@
 	)
 	(label "IA13"
 		(at 49.53 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19108,7 +18869,6 @@
 	)
 	(label "I~{RESET}"
 		(at 30.48 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19119,7 +18879,6 @@
 	)
 	(label "I~{RESET}"
 		(at 340.36 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19130,7 +18889,6 @@
 	)
 	(label "IA6"
 		(at 168.91 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19141,7 +18899,6 @@
 	)
 	(label "IA13"
 		(at 260.35 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19152,7 +18909,6 @@
 	)
 	(label "AC2"
 		(at 210.82 -39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19163,7 +18919,6 @@
 	)
 	(label "~{CART2}"
 		(at 33.02 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19174,7 +18929,6 @@
 	)
 	(label "A15"
 		(at 76.2 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19185,7 +18939,6 @@
 	)
 	(label "IA2"
 		(at 50.8 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19196,7 +18949,6 @@
 	)
 	(label "D7"
 		(at 261.62 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19207,7 +18959,6 @@
 	)
 	(label "IA7"
 		(at 168.91 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19218,7 +18969,6 @@
 	)
 	(label "D0"
 		(at 261.62 177.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19229,7 +18979,6 @@
 	)
 	(label "~{NMI}"
 		(at 33.02 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19240,7 +18989,6 @@
 	)
 	(label "IA9"
 		(at 50.8 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19251,7 +18999,6 @@
 	)
 	(label "DEFAULT1"
 		(at 340.36 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19262,7 +19009,6 @@
 	)
 	(label "~{SLEN}"
 		(at 104.14 107.95 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19273,7 +19019,6 @@
 	)
 	(label "IA14"
 		(at 100.33 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19284,7 +19029,6 @@
 	)
 	(label "IA15"
 		(at 50.8 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19295,7 +19039,6 @@
 	)
 	(label "ID1"
 		(at 31.75 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19306,7 +19049,6 @@
 	)
 	(label "IA1"
 		(at 132.08 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19317,7 +19059,6 @@
 	)
 	(label "EXTSND"
 		(at 54.61 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19328,7 +19069,6 @@
 	)
 	(label "A4"
 		(at 76.2 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19339,7 +19079,6 @@
 	)
 	(label "A14"
 		(at 232.41 226.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19350,7 +19089,6 @@
 	)
 	(label "IA7"
 		(at 99.06 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19361,7 +19099,6 @@
 	)
 	(label "IQ"
 		(at 82.55 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19372,7 +19109,6 @@
 	)
 	(label "A6"
 		(at 76.2 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19383,7 +19119,6 @@
 	)
 	(label "~{CTS3}"
 		(at 102.87 208.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19394,7 +19129,6 @@
 	)
 	(label "A7"
 		(at 76.2 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19405,7 +19139,6 @@
 	)
 	(label "REGS0"
 		(at 321.31 196.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19416,7 +19149,6 @@
 	)
 	(label "IA5"
 		(at 210.82 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19427,7 +19159,6 @@
 	)
 	(label "I~{RESET}"
 		(at 31.75 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19438,7 +19169,6 @@
 	)
 	(label "IA4"
 		(at 50.8 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19449,7 +19179,6 @@
 	)
 	(label "IA12"
 		(at 100.33 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19460,7 +19189,6 @@
 	)
 	(label "~{HALT}"
 		(at 81.28 193.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19471,7 +19199,6 @@
 	)
 	(label "IA6"
 		(at 132.08 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19482,7 +19209,6 @@
 	)
 	(label "LOADREG"
 		(at 217.17 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19492,8 +19218,7 @@
 		(uuid "bed37b6f-41ee-4490-bff6-dbbf1fc43c91")
 	)
 	(label "~{SLEN}"
-		(at 163.83 96.52 180)
-		(fields_autoplaced yes)
+		(at 166.37 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19504,7 +19229,6 @@
 	)
 	(label "~{NMI}"
 		(at 82.55 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19515,7 +19239,6 @@
 	)
 	(label "ID4"
 		(at 81.28 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19526,7 +19249,6 @@
 	)
 	(label "ID1"
 		(at 33.02 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19537,7 +19259,6 @@
 	)
 	(label "IA3"
 		(at 100.33 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19548,7 +19269,6 @@
 	)
 	(label "~{CART1}"
 		(at 270.51 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19559,7 +19279,6 @@
 	)
 	(label "ID7"
 		(at 81.28 228.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19570,7 +19289,6 @@
 	)
 	(label "IA9"
 		(at 49.53 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19580,8 +19298,7 @@
 		(uuid "c61c5b31-dc78-42f9-9901-9565d6bd3e0b")
 	)
 	(label "~{ENBUS}"
-		(at 165.1 106.68 180)
-		(fields_autoplaced yes)
+		(at 166.37 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19592,7 +19309,6 @@
 	)
 	(label "IA11"
 		(at 100.33 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19603,7 +19319,6 @@
 	)
 	(label "REGC1"
 		(at 321.31 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19614,7 +19329,6 @@
 	)
 	(label "IA14"
 		(at 50.8 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19625,7 +19339,6 @@
 	)
 	(label "IA11"
 		(at 99.06 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19636,7 +19349,6 @@
 	)
 	(label "ID5"
 		(at 81.28 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19647,7 +19359,6 @@
 	)
 	(label "ENSW"
 		(at 354.33 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19658,7 +19369,6 @@
 	)
 	(label "IA6"
 		(at 50.8 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19669,7 +19379,6 @@
 	)
 	(label "~{P23}"
 		(at 102.87 198.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19680,7 +19389,6 @@
 	)
 	(label "ID7"
 		(at 284.48 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19691,7 +19399,6 @@
 	)
 	(label "A11"
 		(at 76.2 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19702,7 +19409,6 @@
 	)
 	(label "~{CART3}"
 		(at 270.51 180.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19713,7 +19419,6 @@
 	)
 	(label "IA10"
 		(at 194.31 248.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19724,7 +19429,6 @@
 	)
 	(label "DEFAULT1"
 		(at 184.15 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19735,7 +19439,6 @@
 	)
 	(label "ID2"
 		(at 82.55 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19746,7 +19449,6 @@
 	)
 	(label "IA4"
 		(at 99.06 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19757,7 +19459,6 @@
 	)
 	(label "IA2"
 		(at 210.82 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19766,9 +19467,8 @@
 		)
 		(uuid "d0852691-ae66-4b24-a51f-563d73b7430f")
 	)
-	(label "CTRL1"
+	(label "~{ENWRITE}"
 		(at 184.15 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19779,7 +19479,6 @@
 	)
 	(label "IA11"
 		(at 260.35 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19790,7 +19489,6 @@
 	)
 	(label "IR{slash}~{W}"
 		(at 31.75 231.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19801,7 +19499,6 @@
 	)
 	(label "REGC1"
 		(at 270.51 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19812,7 +19509,6 @@
 	)
 	(label "IA15"
 		(at 99.06 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19823,7 +19519,6 @@
 	)
 	(label "IA2"
 		(at 49.53 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19834,7 +19529,6 @@
 	)
 	(label "IQ"
 		(at 173.99 163.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19845,7 +19539,6 @@
 	)
 	(label "~{CART2}"
 		(at 142.24 48.26 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19856,7 +19549,6 @@
 	)
 	(label "~{P22}"
 		(at 264.16 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19867,7 +19559,6 @@
 	)
 	(label "~{P2}"
 		(at 138.43 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19878,7 +19569,6 @@
 	)
 	(label "IA5"
 		(at 100.33 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19889,7 +19579,6 @@
 	)
 	(label "~{P24}"
 		(at 53.34 198.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19900,7 +19589,6 @@
 	)
 	(label "D3"
 		(at 261.62 170.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19911,7 +19599,6 @@
 	)
 	(label "FFxx"
 		(at 210.82 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19922,7 +19609,6 @@
 	)
 	(label "A1"
 		(at 185.42 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19933,7 +19619,6 @@
 	)
 	(label "ID7"
 		(at 33.02 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19944,7 +19629,6 @@
 	)
 	(label "~{CART3}"
 		(at 151.13 48.26 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19955,7 +19639,6 @@
 	)
 	(label "~{CART2}"
 		(at 270.51 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19966,7 +19649,6 @@
 	)
 	(label "A6"
 		(at 143.51 218.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19977,7 +19659,6 @@
 	)
 	(label "CK2"
 		(at 320.04 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19988,7 +19669,6 @@
 	)
 	(label "D0"
 		(at 58.42 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19999,7 +19679,6 @@
 	)
 	(label "ID4"
 		(at 284.48 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20010,7 +19689,6 @@
 	)
 	(label "FFxx"
 		(at 127 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20021,7 +19699,6 @@
 	)
 	(label "I~{P2}"
 		(at 229.87 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20032,7 +19709,6 @@
 	)
 	(label "IA10"
 		(at 50.8 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20043,7 +19719,6 @@
 	)
 	(label "ID4"
 		(at 33.02 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20054,7 +19729,6 @@
 	)
 	(label "DEFAULT0"
 		(at 184.15 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20065,7 +19739,6 @@
 	)
 	(label "IA15"
 		(at 100.33 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20076,7 +19749,6 @@
 	)
 	(label "IA6"
 		(at 99.06 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20087,7 +19759,6 @@
 	)
 	(label "~{RESET}"
 		(at 138.43 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20098,7 +19769,6 @@
 	)
 	(label "A4"
 		(at 185.42 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20109,7 +19779,6 @@
 	)
 	(label "REGS0"
 		(at 229.87 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20120,7 +19789,6 @@
 	)
 	(label "ID5"
 		(at 31.75 223.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20131,7 +19799,6 @@
 	)
 	(label "D6"
 		(at 261.62 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20142,7 +19809,6 @@
 	)
 	(label "ID6"
 		(at 82.55 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20153,7 +19819,6 @@
 	)
 	(label "IR{slash}~{W}"
 		(at 228.6 182.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20164,7 +19829,6 @@
 	)
 	(label "~{CART}"
 		(at 307.34 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20175,7 +19839,6 @@
 	)
 	(label "~{NMI}"
 		(at 81.28 195.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20186,7 +19849,6 @@
 	)
 	(label "ID7"
 		(at 82.55 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20197,7 +19859,6 @@
 	)
 	(label "A3"
 		(at 185.42 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20208,7 +19869,6 @@
 	)
 	(label "A13"
 		(at 76.2 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20219,7 +19879,6 @@
 	)
 	(label "IE"
 		(at 81.28 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20230,7 +19889,6 @@
 	)
 	(label "A9"
 		(at 76.2 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20241,7 +19899,6 @@
 	)
 	(label "A3"
 		(at 76.2 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20252,7 +19909,6 @@
 	)
 	(label "IQ"
 		(at 33.02 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20263,7 +19919,6 @@
 	)
 	(label "IA15"
 		(at 49.53 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20274,7 +19929,6 @@
 	)
 	(label "IA8"
 		(at 49.53 220.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20285,7 +19939,6 @@
 	)
 	(label "ID1"
 		(at 284.48 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20296,7 +19949,6 @@
 	)
 	(label "IA1"
 		(at 210.82 157.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20307,7 +19959,6 @@
 	)
 	(label "IA0"
 		(at 31.75 233.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20318,7 +19969,6 @@
 	)
 	(label "~{CTS4}"
 		(at 53.34 208.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20329,7 +19979,6 @@
 	)
 	(label "ID3"
 		(at 33.02 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20341,7 +19990,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 125.73 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20353,7 +20001,6 @@
 	(hierarchical_label "ID[0..7]"
 		(shape bidirectional)
 		(at 175.26 236.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20365,7 +20012,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 55.88 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20377,7 +20023,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 55.88 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20389,7 +20034,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 29.21 241.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20401,7 +20045,6 @@
 	(hierarchical_label "ID[0..7]"
 		(shape bidirectional)
 		(at 281.94 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20413,7 +20056,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 217.17 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20425,7 +20067,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 105.41 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20437,7 +20078,6 @@
 	(hierarchical_label "ID[0..7]"
 		(shape bidirectional)
 		(at 78.74 205.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20449,7 +20089,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 81.28 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20461,7 +20100,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 54.61 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20473,7 +20111,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 81.28 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20485,7 +20122,6 @@
 	(hierarchical_label "ID[0..7]"
 		(shape bidirectional)
 		(at 29.21 205.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20497,7 +20133,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 80.01 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20509,7 +20144,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 187.96 226.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20521,7 +20155,6 @@
 	(hierarchical_label "ID[0..7]"
 		(shape bidirectional)
 		(at 80.01 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20533,7 +20166,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 30.48 161.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20545,7 +20177,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 105.41 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20557,7 +20188,6 @@
 	(hierarchical_label "ID[0..7]"
 		(shape bidirectional)
 		(at 356.87 179.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20569,7 +20199,6 @@
 	(hierarchical_label "ID[0..7]"
 		(shape bidirectional)
 		(at 228.6 154.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20581,7 +20210,6 @@
 	(hierarchical_label "ID[0..7]"
 		(shape bidirectional)
 		(at 30.48 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20593,7 +20221,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 54.61 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20605,7 +20232,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 226.06 215.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20617,7 +20243,6 @@
 	(hierarchical_label "D[0..7]"
 		(shape bidirectional)
 		(at 55.88 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20629,7 +20254,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 137.16 213.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20641,7 +20265,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 179.07 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20653,7 +20276,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 175.26 213.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20665,7 +20287,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 104.14 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20677,7 +20298,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 78.74 241.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20689,7 +20309,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 104.14 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20701,7 +20320,6 @@
 	(hierarchical_label "D[0..7]"
 		(shape bidirectional)
 		(at 264.16 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20713,7 +20331,6 @@
 	(hierarchical_label "IA[0..15]"
 		(shape input)
 		(at 266.7 215.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20725,7 +20342,6 @@
 	(hierarchical_label "A[0..15]"
 		(shape input)
 		(at 55.88 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
