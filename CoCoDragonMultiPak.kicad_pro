@@ -458,7 +458,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "CoCoDragonMultiPak"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
